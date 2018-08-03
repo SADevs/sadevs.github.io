@@ -17,7 +17,7 @@ title: SA Devs
 email: sadevelopers@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   We are a group of developers from San Antonio, and we're all about sharing resources and information with each other to help grow the ecosystem. If you are from San Antonio or would like to be a part of this group, join us!
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/sa_devs_site" # the subpath of your site, e.g. /blog
 url: "https://sadevs.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SADevs
 github_username:  SADevs

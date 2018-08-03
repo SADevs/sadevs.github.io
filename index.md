@@ -4,7 +4,6 @@
 
 layout: home
 ---
-# SA Devs Site
 Under Construction
 
 ### Join our Slack group!
