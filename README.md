@@ -8,6 +8,6 @@ We can add more things along the way, but for now, this is meant to solve that o
 
 Also, I think it's fun to build websites. 
 
-So if you want to join us, go to the website! [Website incoming](#)
+So if you want to join us, go to the website! [Here it is!](https://sadevs.github.io/)
 
 We're good people, honest. There might be one or two trolls in our group, but we never feed them. It keeps them at bay.
