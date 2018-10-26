@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Omar Quimbaya'
 SITENAME = 'San Antonio Developers'
-SITEURL = ''
+SITEURL = 'https://sanantoniodevs.com'
 THEME = 'themes/brutalist'
 
 PATH = 'content'
@@ -14,8 +14,8 @@ TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
@@ -23,11 +23,12 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (
     ('Slack', 'https://join.slack.com/t/sanantoniodevs/shared_invite/MjE2ODI0NDQ4NjkwLTE1MDA5MDgwODctMzcxMmZhNjE0Zg'),
-    )
+)
 
 # Social widget
-SOCIAL = (('Twitter', 'https://twitter.com/SA_Devs'),
-         )
+SOCIAL = (
+    ('Twitter', 'https://twitter.com/SA_Devs'),
+)
 
 DEFAULT_PAGINATION = 10
 
