@@ -8,6 +8,7 @@ SITEURL = 'https://sanantoniodevs.com'
 THEME = 'themes/brutalist'
 
 PATH = 'content'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'America/Chicago'
 
@@ -21,7 +22,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LOGO = 'images/sadevs.png'
+LOGO = 'sadevs.png'
 MENUITEMS = [
     ('Slack', 'https://join.slack.com/t/sanantoniodevs/shared_invite/MjE2ODI0NDQ4NjkwLTE1MDA5MDgwODctMzcxMmZhNjE0Zg'),
 ]
@@ -29,7 +30,7 @@ MENUITEMS = [
 
 # Social widget
 TWITTER = 'https://twitter.com/SA_Devs'
-GITHUB = 'https://github.com/mamcmanus'
+GITHUB = 'https://github.com/sadevs'
 
 
 DEFAULT_PAGINATION = 10
