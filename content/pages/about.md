@@ -1,1 +1,1 @@
-title: About SA Devs
+title: About
