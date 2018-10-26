@@ -21,14 +21,16 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (
+LOGO = 'images/sadevs.png'
+MENUITEMS = [
     ('Slack', 'https://join.slack.com/t/sanantoniodevs/shared_invite/MjE2ODI0NDQ4NjkwLTE1MDA5MDgwODctMzcxMmZhNjE0Zg'),
-)
+]
+
 
 # Social widget
-SOCIAL = (
-    ('Twitter', 'https://twitter.com/SA_Devs'),
-)
+TWITTER = 'https://twitter.com/SA_Devs'
+GITHUB = 'https://github.com/mamcmanus'
+
 
 DEFAULT_PAGINATION = 10
 
