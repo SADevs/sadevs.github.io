@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>San Antonio Developers</title><link href="https://sanantoniodevs.com/" rel="alternate"></link><link href="https://sanantoniodevs.com/feeds/all.atom.xml" rel="self"></link><id>https://sanantoniodevs.com/</id><updated>2018-10-25T00:00:00-05:00</updated><entry><title>SA Devs Meetup 3</title><link href="https://sanantoniodevs.com/meetup3.html" rel="alternate"></link><published>2018-10-25T00:00:00-05:00</published><updated>2018-10-25T00:00:00-05:00</updated><author><name>Omar Quimbaya</name></author><id>tag:sanantoniodevs.com,2018-10-25:/meetup3.html</id><summary type="html">&lt;p&gt;A brief summary of our third meetup at iHeartMedia&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Event Details&lt;/h2&gt;
+&lt;p&gt;Location: iHeartMedia
+Sponsor: iHeartMedia
+Presentations: Shane on WebSockets, Big Jon on ... I still don't even know, but it was cool&lt;/p&gt;
+&lt;p&gt;We had a good group of people go up to iHeartMedia, eat pizza, hang out, and listen to some great presentations. &lt;/p&gt;
+&lt;p&gt;Additionally, iHeartMedia is doing a ton of hiring, so if you are interested in what positions are available at iHeart, &lt;a href="http://iheartmediacareers.com/Pages/default.aspx"&gt;check out this site.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Meetup rating: 10/10 -- would meetup again&lt;/p&gt;</content><category term="meetup"></category><category term="events"></category></entry></feed>
