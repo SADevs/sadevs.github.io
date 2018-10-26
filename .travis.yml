@@ -1,0 +1,21 @@
+sudo: false
+language: python
+cache: pip
+python:
+  - 3.6
+install:
+  - pip install pipenv
+  - pipenv install
+script:
+  - pipenv run pelican content -o output -s pelicanconf.py
+
+deploy:
+  provider: pages
+  fqdn: sanantoniodevs.com
+  local-dir: output/
+  target-branch: master
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: website
