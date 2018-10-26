@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Omar Quimbaya'
+AUTHOR = 'San Antonio Developers'
 SITENAME = 'San Antonio Developers'
 SITEURL = 'https://sanantoniodevs.com'
 THEME = 'themes/brutalist'
@@ -31,6 +31,7 @@ MENUITEMS = [
 # Social widget
 TWITTER = 'https://twitter.com/SA_Devs'
 GITHUB = 'https://github.com/sadevs'
+DISQUS_SITENAME = "sanantoniodevs"
 
 
 DEFAULT_PAGINATION = 10
