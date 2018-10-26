@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Omar Quimbaya'
 SITENAME = 'San Antonio Developers'
-SITEURL = 'https://blog.sanantoniodevs.com'
+SITEURL = 'https://sanantoniodevs.com'
 THEME = 'themes/brutalist'
 
 PATH = 'content'
