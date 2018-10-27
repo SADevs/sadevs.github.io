@@ -7,7 +7,7 @@ install:
   - pip install pipenv
   - pipenv install
 script:
-  - pipenv run pelican content -o output -s pelicanconf.py
+  - pipenv run pelican content -vvv -o output -s pelicanconf.py
 
 deploy:
   provider: pages
