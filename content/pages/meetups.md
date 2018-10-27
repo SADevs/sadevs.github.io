@@ -1,6 +1,6 @@
 Title: Tech Meetups in San Antonio
 Date: 10-26-2018
-Slug: tech-meetups
+Slug: local-meetups
 Authors: Omar Quimbaya
 Summary: A list of Tech Meetups in San Antonio
 
