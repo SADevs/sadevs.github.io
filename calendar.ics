@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//My calendar product//mxm.dk//
+BEGIN:VEVENT
+SUMMARY:<p>A brief summary of our third meetup at iHeartMedia</p>
+DTSTART:2018-10-24 19:00:00
+DTEND:2018-10-24 21:00:00
+DTSTAMP:2018-10-25 00:00:00
+UID:The Third SA Devs Meetup<p>A brief summary of our third meetup at iHea
+ rtMedia</p>
+LOCATION:iHeartMedia\, 20880 Stone Oak Pkwy\, San Antonio\, TX 78258
+PRIORITY:5
+END:VEVENT
+END:VCALENDAR
