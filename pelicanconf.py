@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+
 AUTHOR = 'San Antonio Developers'
 SITENAME = 'San Antonio Developers'
 SITEURL = 'https://sanantoniodevs.com'
@@ -24,15 +25,20 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LOGO = 'sadev500w.png'
 MENUITEMS = [
-    ('Slack', 'https://join.slack.com/t/sanantoniodevs/shared_invite/MjE2ODI0NDQ4NjkwLTE1MDA5MDgwODctMzcxMmZhNjE0Zg'),
+    ('slack', 'https://join.slack.com/t/sanantoniodevs/shared_invite/MjE2ODI0NDQ4NjkwLTE1MDA5MDgwODctMzcxMmZhNjE0Zg'),
 ]
 
+# Plugins
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['events']
+PLUGIN_EVENTS = {
+    'ics_fname': 'calendar.ics',
+}
 
 # Social widget
 TWITTER = 'https://twitter.com/SA_Devs'
 GITHUB = 'https://github.com/sadevs'
 DISQUS_SITENAME = "sanantoniodevs"
-
 
 DEFAULT_PAGINATION = 10
 
