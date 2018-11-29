@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>San Antonio Developers</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8" />
+        <link href="https://sanantoniodevs.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="San Antonio Developers Full Atom Feed" />
+        <link href="https://sanantoniodevs.com/feeds/articles.atom.xml" type="application/atom+xml" rel="alternate" title="San Antonio Developers Categories Atom Feed" />
+        <!-- twitter card metadata -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://sanantoniodevs.com/images/sadev500w.png">
+<meta name="twitter:site" content="">
+<meta name="twitter:title" content="How to add docs to this site">
+<meta name="twitter:description" content="">
+        <!-- OG Tags -->
+<meta property="og:url" content="https://sanantoniodevs.com/how-to-add-docs.html"/>
+<meta property="og:title" content="San Antonio Developers | How to add docs to this site" />
+<meta property="og:description" content="" />
+        <!-- favicon -->
+        <!-- moment.js for date formatting -->
+        <script src="https://sanantoniodevs.com/theme/js/moment.js"></script>
+        <!-- css -->
+        <link rel="stylesheet" type="text/css" href="https://sanantoniodevs.com/theme/css/main.css" />
+		<script>
+			
+                /*! grunt-grunticon Stylesheet Loader - v2.1.2 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
+    
+    (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+                
+                grunticon(["https://sanantoniodevs.com/theme/css/icons.data.svg.css", "https://sanantoniodevs.com/theme/css/icons.data.png.css", "https://sanantoniodevs.com/theme/css/icons.fallback.css"]);
+            </script>
+        <noscript><link href="https://sanantoniodevs.com/theme/css/icons.fallback.css" rel="stylesheet"></noscript>
+        <!-- menu toggle javascript -->
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", initMenu);
+            
+            function initMenu(){
+                var menu = document.getElementById("menu");
+                var menulink = document.getElementById("menu-link");
+                menulink.addEventListener("click", function toggleMenu(){
+                        window.event.preventDefault();
+                        menulink.classList.toggle('active');
+                        menu.classList.toggle('active');              
+                    });
+            };
+        </script>
+
+
+    <meta name="tags" content="how-to" />
+    <meta name="tags" content="docs" />
+
+</head>
+<body>
+    <div role="banner" id="masthead">
+        <header>
+            <a href="/"><img src="https://sanantoniodevs.com/images/sadev500w.png" alt="McManus Logo"></a>
+            <a href="#menu" id="menu-link">more stuff</a>
+            <nav id="menu">
+                <ul>
+                        <li><a href="https://sanantoniodevs.com/pages/about.html">about</a></li>
+                        <li><a href="https://sanantoniodevs.com/pages/events.html">events</a></li>
+                        <li><a href="https://sanantoniodevs.com/pages/local-meetups.html">local-meetups</a></li>
+                        <li><a href="https://sanantoniodevs.com/pages/rules.html">rules</a></li>
+                        <li><a href="https://join.slack.com/t/sanantoniodevs/shared_invite/MjE2ODI0NDQ4NjkwLTE1MDA5MDgwODctMzcxMmZhNjE0Zg">slack</a></li>
+                            <li class="active"><a href="https://sanantoniodevs.com/category/articles.html">articles</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+        <div class="page" role="main">
+  <div class="article" role="article">
+    <article>
+        <footer>
+            <a name="top"></a>
+            <p>
+              <time datetime=" 2018-11-29 00:00:00-06:00">
+                <script>document.write(moment('2018-11-29 00:00:00-06:00').format('LL'));</script>
+              </time>
+            </p>
+        </footer>
+        <header>
+          <h2>
+            How to add docs to this site
+          </h2>
+        </header>
+      <div class="content">
+         <h1>How to add documentation to the SA Devs website</h1>
+<p>First of all, why would you want to do this? We are a group of developers who are active in our Slack group, but one of the main problems is that we have a lot of knowledge that we are not writing down in a more permanent place. When we share articles or advice on a technical topic, those messages will get lost with all of the other messages that people are sending as we are not paying for our Slack subscription. Therefore, in order to share our knowledge with people and show other cities that the developers in San Antonio are knowledgeable, collaborative, and willing to share their experience with the rest of the world, we are giving developers here an opportunity to share articles on their thoughts, experiences, and knowledge of how to use the technologies we use every day.</p>
+<p>This is a good opportunity for you to contribute something to the community without that much effort! In order to do so, here is how you do it.</p>
+<h2>Fork the repo!</h2>
+<p>Our site is a static site hosted somewhere out there on the Internet. Super mysterious. You can find the repository of our site here: <a href="https://github.com/SADevs/sadevs.github.io">https://github.com/SADevs/sadevs.github.io</a>. Fork this repository and clone it to your local machine. The site is powered by Pelican, which is a static site generator written in Python. If you have Python on your machine and you want to see what your article looks like on your local machine, install Pelican by typing in your terminal </p>
+<div class="highlight"><pre><span></span>pip install pipenv # if you don&#39;t have pipenv on your machine already
+pipenv install
+</pre></div>
+
+
+<p>This will get the necessary packages to use this static site generator. To build and run the site locally, use the following commands:</p>
+<div class="highlight"><pre><span></span>pipenv run pelican content -vvv -o output -s pelicanconf.py
+cd output
+python -m http.server
+</pre></div>
+
+
+<p>Open a browser and go to http://localhost:8000 to view the content. Note that the links will link to the actual site instead of the locally generated site, so if you made changes and you are not seeing them, check the URL at the top to see where you are.</p>
+<p>If you don't care about what your article looks like on the site and just want to write content, copy this template to get you started into a new file with a relevant name of your article and ending with a markdown extension:</p>
+<div class="highlight"><pre><span></span><span class="n">Title</span><span class="o">:</span> <span class="n">How</span> <span class="n">to</span> <span class="n">install</span> <span class="n">Pelican</span>
+<span class="n">Date</span><span class="o">:</span> <span class="mi">11</span><span class="o">-</span><span class="mi">29</span><span class="o">-</span><span class="mi">2018</span>
+<span class="n">Tags</span><span class="o">:</span> <span class="n">how</span><span class="o">-</span><span class="n">to</span><span class="o">,</span> <span class="n">docs</span>
+<span class="n">Slug</span><span class="o">:</span> <span class="n">how</span><span class="o">-</span><span class="n">to</span><span class="o">-</span><span class="n">install</span><span class="o">-</span><span class="n">pelican</span>
+<span class="n">Authors</span><span class="o">:</span> <span class="n">Omar</span> <span class="n">Quimbaya</span>
+<span class="n">Summary</span><span class="o">:</span> <span class="n">A</span> <span class="n">short</span> <span class="n">tutorial</span> <span class="n">on</span> <span class="n">how</span> <span class="n">to</span> <span class="n">install</span> <span class="n">Pelican</span>
+
+<span class="err">#</span> <span class="n">How</span> <span class="n">to</span> <span class="n">install</span> <span class="n">Pelican</span>
+
+<span class="o">&amp;</span><span class="n">lt</span><span class="o">;</span><span class="n">some</span> <span class="n">text</span> <span class="n">goes</span> <span class="n">here</span><span class="o">&amp;</span><span class="n">gt</span><span class="o">;</span>
+
+    <span class="err">#</span> <span class="n">code</span> <span class="n">example</span>
+    <span class="n">print</span><span class="o">(</span><span class="s2">&quot;hello world&quot;</span><span class="o">)</span>
+
+<span class="err">##</span> <span class="n">Secondary</span> <span class="n">Heading</span>
+
+<span class="err">###</span> <span class="n">Tertiary</span> <span class="n">Heading</span>
+
+<span class="o">[</span><span class="n">Links</span> <span class="k">for</span> <span class="n">more</span> <span class="n">information</span><span class="o">](</span><span class="n">https</span><span class="o">://</span><span class="n">blog</span><span class="o">.</span><span class="na">getpelican</span><span class="o">.</span><span class="na">com</span><span class="o">/)</span>
+</pre></div>
+
+
+<p>Once your document is done and you feel like you've said all you could about a topic, commit and push that to the <code>website</code> branch of your clone repository. Go to your repo and submit a pull request to add your changes to the site. Once an admin reviews your article and accepts the pull request, it will start some automation that will publish the article to the site.</p>
+<p>If you have any more questions or require additional details, please let @PropagandaPanda4 know on the Slack group. He can edit the article and add additional details.</p>
+<p>Happy writing, and thank you for contributing to the SA Developers Group!</p>
+      </div>
+      <div class="back-to-top">
+          <a href="#top">back to top</a>
+      </div>
+      <div id="disqus_thread"></div>
+        <script>
+          var disqus_config = function () {
+          this.page.url = "https://sanantoniodevs.com/how-to-add-docs.html";  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = "how-to-add-docs"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+        </script>
+        <script>
+        (function() {
+              var d = document, s = d.createElement('script');
+              s.src = 'https://sanantoniodevs.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </article>
+  </div>
+<!-- end article -->
+                <footer>
+                    <div class="icons">
+                        <a href="https://twitter.com/SA_Devs" target="_blank"><div class="icon-twitter icon"></div></a>
+                        <a href="https://github.com/sadevs" target="_blank"><div class="icon-github icon"></div></a>
+                    </div>
+                    <p>© <script>document.write(moment().format('YYYY'));</script> San Antonio Developers</p>
+                </footer>
+        </div>
+</body>
+</html>
