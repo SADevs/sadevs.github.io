@@ -39,7 +39,7 @@ Summary: A short tutorial on how to install Pelican
 
 ```
 
-Once your document is done and you feel like you've said all you could about a topic, commit and push that to the `website` branch of your clone repository. Go to the [https://github.com/SADevs/sadevs.github.io](https://github.com/SADevs/sadevs.github.io) repo and submit a pull request to add your changes to the site. Once an admin reviews your article and accepts the pull request, it will start some automation that will publish the article to the site.
+Once your document is done and you feel like you've said all you could about a topic, commit and push that to the `website` branch of your clone repository. Go to your repo and submit a pull request to add your changes to the site. Once an admin reviews your article and accepts the pull request, it will start some automation that will publish the article to the site.
 
 If you have any more questions or require additional details, please let @PropagandaPanda4 know on the Slack group. He can edit the article and add additional details.
 
