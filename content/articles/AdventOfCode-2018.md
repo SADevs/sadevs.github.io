@@ -33,7 +33,7 @@ To join the private leaderboard, click on the link `[LeaderBoard]` -> `[Private 
 There should be an input box for you to enter the private leaderboard code below to join in on the
 reindeer games. 
 
-Or if that is too complicated for you, *cough Omar*, just use the link [here](https://adventofcode.com/2018/leaderboard/private) and enter the code below.  
+Or just use this link [here](https://adventofcode.com/2018/leaderboard/private) and enter the code below.  
 
 **SA DEVS PRIVATE LEADERBOARD CODE**
 
