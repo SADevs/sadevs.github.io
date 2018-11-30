@@ -33,14 +33,14 @@ To join the private leaderboard, click on the link `[LeaderBoard]` -> `[Private 
 There should be an input box for you to enter the private leaderboard code below to join in on the
 reindeer games. 
 
-Or if that is too complicated for you, *cough Omar*, just use the link [here](https://adventofcode.com/2018/leaderboard/private) and enter the code below.  
+Or just use this link [here](https://adventofcode.com/2018/leaderboard/private) and enter the code below.  
 
 **SA DEVS PRIVATE LEADERBOARD CODE**
 
 `215653-c4570711`
 
 You can also post comments / questions / ~~boast of programming superiority~~ help other
-members of the SADev community. This should be a **FUN** way to interact with each other. **#devsbeingbros**
+members of the SADev community. This should be a **FUN** way to interact with each other. **#devsbeingchill**
 
 ## Is this worth my time
 
@@ -48,7 +48,15 @@ Objectively, YES. You get to meet / compete with other developers in the SA Deve
 and bask in the glory that is being higher ranked than some other seasoned developers. Bwahahaha!!
 
 There's also a gift card / cash prize for the winner or potential winners at the end of the challenge.
-As of this writing, the current prize is valued at 💰$30💰. The prize purse can potentially grow depending
+As of this writing, the current prize is valued at 💰$70💰. The prize purse can potentially grow depending
 on the generousity of other developers in the community who wish to contribute.
+
+## **PRIZE CONTRIBUTORS**
+
+### *@bigjonroberts*
+
+### *@cptcrunch*
+
+### *@gtmanfred*
 
 Thanks and have fun!
