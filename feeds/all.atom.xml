@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>San Antonio Developers</title><link href="https://sanantoniodevs.com/" rel="alternate"></link><link href="https://sanantoniodevs.com/feeds/all.atom.xml" rel="self"></link><id>https://sanantoniodevs.com/</id><updated>2018-11-29T00:00:00-06:00</updated><entry><title>How to add docs to this site</title><link href="https://sanantoniodevs.com/how-to-add-docs.html" rel="alternate"></link><published>2018-11-29T00:00:00-06:00</published><updated>2018-11-29T00:00:00-06:00</updated><author><name>Omar Quimbaya</name></author><id>tag:sanantoniodevs.com,2018-11-29:/how-to-add-docs.html</id><summary type="html">&lt;p&gt;A short tutorial of how to add your docs to this site and share your knowledge!&lt;/p&gt;</summary><content type="html">&lt;h1&gt;How to add documentation to the SA Devs website&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>San Antonio Developers</title><link href="https://sanantoniodevs.com/" rel="alternate"></link><link href="https://sanantoniodevs.com/feeds/all.atom.xml" rel="self"></link><id>https://sanantoniodevs.com/</id><updated>2018-11-30T00:00:00-06:00</updated><entry><title>Advent of Code (AoC) 2018 Code Jam</title><link href="https://sanantoniodevs.com/advent-of-code-coding-jam.html" rel="alternate"></link><published>2018-11-30T00:00:00-06:00</published><updated>2018-11-30T00:00:00-06:00</updated><author><name>Jason Gutierrez</name></author><id>tag:sanantoniodevs.com,2018-11-30:/advent-of-code-coding-jam.html</id><summary type="html">&lt;p&gt;An open invitation to the SA Developers Advent of Code leaderboard and code jam&lt;/p&gt;</summary><content type="html">&lt;h1&gt;First Annual SA Developers Advent of Code (AoC) Code Jam&lt;/h1&gt;
+&lt;p&gt;Welcome all members of the San Antonio Web Developers community and Slack group. I do
+apologize for the late entry for this article but better late then never. At the time of
+this writing there are 13 hrs (CST) until the first challenge is released.  &lt;/p&gt;
+&lt;p&gt;This is an open invitation and challenge to all developers who want to flex their skills
+or try out a new language while solving programming puzzles.&lt;/p&gt;
+&lt;h2&gt;What is Advent of Code (AoC)&lt;/h2&gt;
+&lt;p&gt;If you are unfamiliar with AoC, I would recommned that you go to their about page &lt;a href="https://adventofcode.com/2018/about"&gt;HERE&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;TL;DR;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A new puzzle is release / unlocked at midnight EST/UTC-5 every day from Dec 1 to Dec 25&lt;/p&gt;
+&lt;h2&gt;How Do I Join&lt;/h2&gt;
+&lt;p&gt;First you will need to sign in to &lt;a href="https://adventofcode.com/"&gt;Advent of Code&lt;/a&gt;, You can link
+with your Github, Google or Email address. Once you are registered you can join the SA Developers
+private leaderboard&lt;/p&gt;
+&lt;p&gt;To join the private leaderboard, click on the link &lt;code&gt;[LeaderBoard]&lt;/code&gt; -&amp;gt; &lt;code&gt;[Private Leaderboard]&lt;/code&gt;
+There should be an input box for you to enter the private leaderboard code below to join in on the
+reindeer games. &lt;/p&gt;
+&lt;p&gt;Or if that is too complicated for you, &lt;em&gt;cough Omar&lt;/em&gt;, just use the link &lt;a href="https://adventofcode.com/2018/leaderboard/private"&gt;here&lt;/a&gt; and enter the code below.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SA DEVS PRIVATE LEADERBOARD CODE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;215653-c4570711&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;You can also post comments / questions / ~~boast of programming superiority~~ help other
+members of the SADev community. This should be a &lt;strong&gt;FUN&lt;/strong&gt; way to interact with each other. &lt;strong&gt;#devsbeingbros&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Is this worth my time&lt;/h2&gt;
+&lt;p&gt;Objectively, YES. You get to meet / compete with other developers in the SA Developer community
+and bask in the glory that is being higher ranked than some other seasoned developers. Bwahahaha!!&lt;/p&gt;
+&lt;p&gt;There's also a gift card / cash prize for the winner or potential winners at the end of the challenge.
+As of this writing, the current prize is valued at 💰$30💰. The prize purse can potentially grow depending
+on the generousity of other developers in the community who wish to contribute.&lt;/p&gt;
+&lt;p&gt;Thanks and have fun!&lt;/p&gt;</content><category term="code-jam"></category><category term="aoc"></category></entry><entry><title>How to add docs to this site</title><link href="https://sanantoniodevs.com/how-to-add-docs.html" rel="alternate"></link><published>2018-11-29T00:00:00-06:00</published><updated>2018-11-29T00:00:00-06:00</updated><author><name>Omar Quimbaya</name></author><id>tag:sanantoniodevs.com,2018-11-29:/how-to-add-docs.html</id><summary type="html">&lt;p&gt;A short tutorial of how to add your docs to this site and share your knowledge!&lt;/p&gt;</summary><content type="html">&lt;h1&gt;How to add documentation to the SA Devs website&lt;/h1&gt;
 &lt;p&gt;First of all, why would you want to do this? We are a group of developers who are active in our Slack group, but one of the main problems is that we have a lot of knowledge that we are not writing down in a more permanent place. When we share articles or advice on a technical topic, those messages will get lost with all of the other messages that people are sending as we are not paying for our Slack subscription. Therefore, in order to share our knowledge with people and show other cities that the developers in San Antonio are knowledgeable, collaborative, and willing to share their experience with the rest of the world, we are giving developers here an opportunity to share articles on their thoughts, experiences, and knowledge of how to use the technologies we use every day.&lt;/p&gt;
 &lt;p&gt;This is a good opportunity for you to contribute something to the community without that much effort! In order to do so, here is how you do it.&lt;/p&gt;
 &lt;h2&gt;Fork the repo!&lt;/h2&gt;
