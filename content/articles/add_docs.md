@@ -13,33 +13,42 @@ This is a good opportunity for you to contribute something to the community with
 
 ## Fork the repo!
 
-Our site is a static site hosted somewhere out there on the Internet. Super mysterious. You can find the repository of our site here: [https://github.com/SADevs/sadevs.github.io](https://github.com/SADevs/sadevs.github.io). Fork this repository and clone it to your local machine. The site is powered by Pelican, which is a static site generator written in Python. If you have Python on your machine and you want to see what your article looks like on your local machine, install Pelican by typing in your terminal `pip install pelican Markdown`. This will get the necessary packages to use this static site generator.
+Our site is a static site hosted somewhere out there on the Internet. Super mysterious. You can find the repository of our site here: [https://github.com/SADevs/sadevs.github.io](https://github.com/SADevs/sadevs.github.io). Fork this repository and clone it to your local machine. The site is powered by Pelican, which is a static site generator written in Python. If you have Python on your machine and you want to see what your article looks like on your local machine, install Pelican by typing in your terminal 
+
+    pip install pipenv # if you don't have pipenv on your machine already
+    pipenv install
+
+This will get the necessary packages to use this static site generator. To build and run the site locally, use the following commands:
+
+    pipenv run pelican content -vvv -o output -s pelicanconf.py
+    cd output
+    python -m http.server
+
+Open a browser and go to http://localhost:8000 to view the content. Note that the links will link to the actual site instead of the locally generated site, so if you made changes and you are not seeing them, check the URL at the top to see where you are.
 
 If you don't care about what your article looks like on the site and just want to write content, copy this template to get you started into a new file with a relevant name of your article and ending with a markdown extension:
 
-```markdown
-Title: How to install Pelican
-Date: 11-29-2018
-Tags: how-to, docs
-Slug: how-to-install-pelican
-Authors: Omar Quimbaya
-Summary: A short tutorial on how to install Pelican
+    Title: How to install Pelican
+    Date: 11-29-2018
+    Tags: how-to, docs
+    Slug: how-to-install-pelican
+    Authors: Omar Quimbaya
+    Summary: A short tutorial on how to install Pelican
 
-# How to install Pelican
+    # How to install Pelican
 
-<some text goes here>
+    <some text goes here>
 
-`pip install pelican Markdown`
+        # code example
+        print("hello world")
 
-## Secondary Heading
+    ## Secondary Heading
 
-### Tertiary Heading
+    ### Tertiary Heading
 
-[Links for more information](https://blog.getpelican.com/)
+    [Links for more information](https://blog.getpelican.com/)
 
-```
-
-Once your document is done and you feel like you've said all you could about a topic, commit and push that to the `website` branch of your clone repository. Go to the [https://github.com/SADevs/sadevs.github.io](https://github.com/SADevs/sadevs.github.io) repo and submit a pull request to add your changes to the site. Once an admin reviews your article and accepts the pull request, it will start some automation that will publish the article to the site.
+Once your document is done and you feel like you've said all you could about a topic, commit and push that to the `website` branch of your clone repository. Go to your repo and submit a pull request to add your changes to the site. Once an admin reviews your article and accepts the pull request, it will start some automation that will publish the article to the site.
 
 If you have any more questions or require additional details, please let @PropagandaPanda4 know on the Slack group. He can edit the article and add additional details.
 
