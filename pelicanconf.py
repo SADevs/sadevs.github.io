@@ -7,11 +7,11 @@ AUTHOR = 'San Antonio Developers'
 SITENAME = 'San Antonio Developers'
 SITEURL = 'https://sanantoniodevs.com'
 THEME = 'themes/brutalist'
-THEME_TEMPLATES_OVERRIDES = ['templates']
+THEME_TEMPLATES_OVERRIDES = ['templates/overrides/']
 
 PATH = 'content'
 STATIC_PATHS = ['images']
-EXTRA_TEMPLATES_PATHS = ['templates']
+EXTRA_TEMPLATES_PATHS = ['templates/extra/']
 
 TIMEZONE = 'America/Chicago'
 
