@@ -61,7 +61,7 @@
 		  <p><b>Location</b>: {{event.metadata['event-location']}}<br>
 		  <b>Date</b>:
               <time datetime=" {{ event.metadata['event-start'] }}">
-                <script>document.write(moment("{{ event.metadata['event-start'] }}").format('LL'));</script>
+                <script>document.write(moment("{{ event.metadata['event-start'] }}").format('LLLL'));</script>
               </time>
 		  </p>
 	      {%- endif %}
