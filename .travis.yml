@@ -7,6 +7,7 @@ install:
   - pip install pipenv
   - pipenv install
 script:
+  - git submodule update --init
   - pipenv run pelican content -vvv -o output -s pelicanconf.py
 
 deploy:
