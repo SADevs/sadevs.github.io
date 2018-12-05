@@ -9,10 +9,6 @@ Event-end: 2018-10-24 21:00
 Event-duration: 2h
 Event-location: iHeartMedia, 20880 Stone Oak Pkwy, San Antonio, TX 78258
 
-## Event Details
-
-**Location**: iHeartMedia<br>
-**Sponsor**: iHeartMedia<br>
 **Presentations**: Shane on WebSockets, Big Jon on Knowing Thyself
 
 We had a good group of people go up to iHeartMedia, eat pizza, hang out, and listen to some great presentations.
