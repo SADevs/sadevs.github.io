@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pelican = "*"
+pelican = ">=4.0.0"
 markdown = "*"
 ghp-import = "*"
 icalendar = "*"
