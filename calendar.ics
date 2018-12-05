@@ -3,8 +3,8 @@ VERSION:2.0
 PRODID:-//My calendar product//mxm.dk//
 BEGIN:VEVENT
 SUMMARY:<p>Social Gathering for Pho and Stuff</p>
-DTSTART:2018-12-10 12:00:00
-DTEND:2018-12-10 13:30:00
+DTSTART:2018-12-14 12:00:00
+DTEND:2018-12-14 13:30:00
 DTSTAMP:2018-12-05 00:00:00
 UID:Meeting for Noodles<p>Social Gathering for Pho and Stuff</p>
 LOCATION:Pho Cong Ly\, 300 W Bitters Rd\, San Antonio\, TX 78216
