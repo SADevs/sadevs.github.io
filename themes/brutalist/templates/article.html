@@ -55,7 +55,18 @@
           </h2>
         </header>
       <div class="content">
-         {{ article.content|safe }}
+	    {%- for event in events_list %}
+          {%- if event.metadata['title'] == article.title %}
+		  <h2>Event Details</h2>
+		  <p><b>Location</b>: {{event.metadata['event-location']}}<br>
+		  <b>Date</b>:
+              <time datetime=" {{ event.metadata['event-start'] }}">
+                <script>document.write(moment("{{ event.metadata['event-start'] }}").format('LL'));</script>
+              </time>
+		  </p>
+	      {%- endif %}
+        {%- endfor %}
+        {{ article.content|safe }}
       </div>
       <div class="back-to-top">
           <a href="#top">back to top</a>
