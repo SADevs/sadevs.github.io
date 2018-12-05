@@ -4,8 +4,8 @@ Tags: meetup, events
 Slug: decembernoodles
 Authors: Jon Roberts
 Summary: Social Gathering for Pho and Stuff
-Event-start: 2018-14-10 12:00
-Event-end: 2018-14-10 13:30
+Event-start: 2018-12-10 12:00
+Event-end: 2018-12-10 13:30
 Event-duration: 1.5h
 Event-location: Pho Cong Ly, 300 W Bitters Rd, San Antonio, TX 78216
 
