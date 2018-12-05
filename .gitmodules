@@ -1,0 +1,3 @@
+[submodule "themes/brutalist"]
+	path = themes/brutalist
+	url = git://github.com/mamcmanus/brutalist.git
