@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//My calendar product//mxm.dk//
 BEGIN:VEVENT
-SUMMARY:<p>Social Gathering for Pho and Stuff</p>
-DTSTART:2018-12-14 12:00:00
-DTEND:2018-12-14 13:30:00
-DTSTAMP:2018-12-05 00:00:00
-UID:Meeting for Noodles<p>Social Gathering for Pho and Stuff</p>
-LOCATION:Pho Cong Ly\, 300 W Bitters Rd\, San Antonio\, TX 78216
+SUMMARY:<p>Social Gathering for Noodles and Stuff</p>
+DTSTART:2019-01-18 12:00:00
+DTEND:2019-01-18 13:30:00
+DTSTAMP:2018-01-18 00:00:00
+UID:Meeting for Noodles<p>Social Gathering for Noodles and Stuff</p>
+LOCATION:Kimura\, 152 E Pecan St #102\, San Antonio\, TX 78205
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
@@ -18,6 +18,15 @@ DTSTAMP:2018-10-25 00:00:00
 UID:The Third SA Devs Meetup<p>A brief summary of our third meetup at iHea
  rtMedia</p>
 LOCATION:iHeartMedia\, 20880 Stone Oak Pkwy\, San Antonio\, TX 78258
+PRIORITY:5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:<p>Social Gathering for Pho and Stuff</p>
+DTSTART:2018-12-14 12:00:00
+DTEND:2018-12-14 13:30:00
+DTSTAMP:2018-12-05 00:00:00
+UID:Meeting for Noodles<p>Social Gathering for Pho and Stuff</p>
+LOCATION:Pho Cong Ly\, 300 W Bitters Rd\, San Antonio\, TX 78216
 PRIORITY:5
 END:VEVENT
 END:VCALENDAR
