@@ -1,5 +1,5 @@
-Title: Meeting for Noodles
-Date: 01-18-2018
+Title: Meeting for Noodles - January 2019
+Date: 01-18-2019
 Tags: meetup, events
 Slug: januarynoodles
 Authors: Jon Roberts
