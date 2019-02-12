@@ -10,7 +10,10 @@ Event-location: Alamo Post 2 - The American Legion, 3518 Fredericksburg Road, Sa
 
 The first meetup of the San Antonio Devs group is coming up!  Please RSVP at the link Below.
 
-<https://www.eventbrite.com/e/sanantonio-devs-meetup-q1-2019-tickets-56443738742>o
+<https://www.eventbrite.com/e/sanantonio-devs-meetup-q1-2019-tickets-56443738742>
+
+Food will be available, but it will be for purchase and cash only.
+
 
 Schedule:
 
