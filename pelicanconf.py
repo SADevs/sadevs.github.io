@@ -10,7 +10,10 @@ THEME = 'themes/brutalist'
 THEME_TEMPLATES_OVERRIDES = ['templates/']
 
 PATH = 'content'
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'extras']
+EXTRA_PATH_METADATA = {
+    'extras/humans.txt': {'path': 'humans.txt'}
+}
 
 TIMEZONE = 'America/Chicago'
 
