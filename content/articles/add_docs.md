@@ -13,7 +13,12 @@ This is a good opportunity for you to contribute something to the community with
 
 ## Fork the repo!
 
-Our site is a static site hosted somewhere out there on the Internet. Super mysterious. You can find the repository of our site here: [https://github.com/SADevs/sadevs.github.io](https://github.com/SADevs/sadevs.github.io). Fork this repository and clone it to your local machine. The site is powered by Pelican, which is a static site generator written in Python. If you have Python on your machine and you want to see what your article looks like on your local machine, install Pelican by typing in your terminal 
+Our site is a static site hosted somewhere out there on the Internet. Super mysterious. You can find the repository of our site here: [https://github.com/SADevs/sadevs.github.io](https://github.com/SADevs/sadevs.github.io). Fork this repository and clone it to your local machine. 
+
+    git clone git@github.com:SADevs/sadevs.github.io.git
+    git submodule update --init
+
+The site is powered by Pelican, which is a static site generator written in Python. If you have Python on your machine and you want to see what your article looks like on your local machine, install Pelican by typing in your terminal 
 
     pip install pipenv # if you don't have pipenv on your machine already
     pipenv install
