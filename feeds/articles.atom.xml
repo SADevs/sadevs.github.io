@@ -74,7 +74,13 @@ on the generousity of other developers in the community who wish to contribute.&
 &lt;p&gt;First of all, why would you want to do this? We are a group of developers who are active in our Slack group, but one of the main problems is that we have a lot of knowledge that we are not writing down in a more permanent place. When we share articles or advice on a technical topic, those messages will get lost with all of the other messages that people are sending as we are not paying for our Slack subscription. Therefore, in order to share our knowledge with people and show other cities that the developers in San Antonio are knowledgeable, collaborative, and willing to share their experience with the rest of the world, we are giving developers here an opportunity to share articles on their thoughts, experiences, and knowledge of how to use the technologies we use every day.&lt;/p&gt;
 &lt;p&gt;This is a good opportunity for you to contribute something to the community without that much effort! In order to do so, here is how you do it.&lt;/p&gt;
 &lt;h2&gt;Fork the repo!&lt;/h2&gt;
-&lt;p&gt;Our site is a static site hosted somewhere out there on the Internet. Super mysterious. You can find the repository of our site here: &lt;a href="https://github.com/SADevs/sadevs.github.io"&gt;https://github.com/SADevs/sadevs.github.io&lt;/a&gt;. Fork this repository and clone it to your local machine. The site is powered by Pelican, which is a static site generator written in Python. If you have Python on your machine and you want to see what your article looks like on your local machine, install Pelican by typing in your terminal &lt;/p&gt;
+&lt;p&gt;Our site is a static site hosted somewhere out there on the Internet. Super mysterious. You can find the repository of our site here: &lt;a href="https://github.com/SADevs/sadevs.github.io"&gt;https://github.com/SADevs/sadevs.github.io&lt;/a&gt;. Fork this repository and clone it to your local machine. &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone git@github.com:SADevs/sadevs.github.io.git
+git submodule update --init
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The site is powered by Pelican, which is a static site generator written in Python. If you have Python on your machine and you want to see what your article looks like on your local machine, install Pelican by typing in your terminal &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install pipenv # if you don&amp;#39;t have pipenv on your machine already
 pipenv install
 &lt;/pre&gt;&lt;/div&gt;
