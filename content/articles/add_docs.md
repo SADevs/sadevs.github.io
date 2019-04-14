@@ -20,14 +20,14 @@ Our site is a static site hosted somewhere out there on the Internet. Super myst
 
 The site is powered by Pelican, which is a static site generator written in Python. If you have Python on your machine and you want to see what your article looks like on your local machine, install Pelican by typing in your terminal 
 
-    pip install pipenv # if you don't have pipenv on your machine already
-    pipenv install
+    pip install -r requirements.txt
+
+We recommend using a virtual environment to manage this project. You can use a couple of solutions to do that, such as virtualenv, pipenv, and pyenv. Whatever tool with which you are most comfortable. If you do not know what a virtual environment is, please read this article: [Python Virtual Environments, a Primer](https://realpython.com/python-virtual-environments-a-primer/).
 
 This will get the necessary packages to use this static site generator. To build and run the site locally, use the following commands:
 
-    pipenv run pelican content -vvv -o output -s pelicanconf.py
-    cd output
-    python -m http.server
+    make publish
+    make serve
 
 Open a browser and go to http://localhost:8000 to view the content. Note that the links will link to the actual site instead of the locally generated site, so if you made changes and you are not seeing them, check the URL at the top to see where you are.
 
@@ -53,7 +53,7 @@ If you don't care about what your article looks like on the site and just want t
 
     [Links for more information](https://blog.getpelican.com/)
 
-Once your document is done and you feel like you've said all you could about a topic, commit and push that to the `website` branch of your clone repository. Go to your repo and submit a pull request to add your changes to the site. Once an admin reviews your article and accepts the pull request, it will start some automation that will publish the article to the site.
+Once your document is done and you feel like you've said all you could about a topic, commit and push that to the `website` branch of your cloned repository. Go to your repo and submit a pull request to add your changes to the site. Once an admin reviews your article and accepts the pull request, it will publish the article to the site.
 
 If you have any more questions or require additional details, please let @PropagandaPanda4 know on the Slack group. He can edit the article and add additional details.
 
