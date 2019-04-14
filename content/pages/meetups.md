@@ -37,5 +37,11 @@ If you are new in town or are just wondering what to do any given first, second,
 - [Data Science](https://www.meetup.com/San-Antonio-Data-Science-Meetup/)
 - [CyberDEF Dojo](https://www.meetup.com/cyberdefdojo/)
 - [OEC Technology Meetup](https://www.meetup.com/OEC-Technology/)
+- [San Antonio Code Newbies](https://www.meetup.com/San-Antonio-Code-Newbies/)
+- [Lisk Javascript Workshop](https://www.meetup.com/LiskCommunityJavaScriptWorkshop/)
+- [AI/ML Side Projects and Learning](https://www.meetup.com/Artificial-Intelligence-and-Machine-Learning-of-San-Antonio/)
+- [San Antonio Women Developers](https://www.meetup.com/San-Antonio-Women-Developers/)
+- [Code for San Antonio](https://www.meetup.com/Code-for-San-Antonio/)
+- [San Antonio Linux Enthusiasts](https://www.meetup.com/San-Antonio-Linux-Enthusiasts/)
 
 If there are others out there, please feel free to add them to the list by making a pull request to our [repo](https://github.com/SADevs/sadevs.github.io)!
