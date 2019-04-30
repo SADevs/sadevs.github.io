@@ -2,13 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//My calendar product//mxm.dk//
 BEGIN:VEVENT
-SUMMARY:<p>Information about the San Antonio Devs Q2 2019 meetup</p>
-DTSTART:2019-05-16 06:30:00
-DTEND:2019-05-16 09:00:00
-DTSTAMP:2019-04-29 00:00:00
-UID:San Antonio Devs Meetup - Q2 2019<p>Information about the San Antonio 
- Devs Q2 2019 meetup</p>
-LOCATION:Launch SA\, 600 Soledad St. San Antonio\, TX 78205
+SUMMARY:<p>A brief summary of our third meetup at iHeartMedia</p>
+DTSTART:2018-10-24 19:00:00
+DTEND:2018-10-24 21:00:00
+DTSTAMP:2018-10-25 00:00:00
+UID:The Third SA Devs Meetup<p>A brief summary of our third meetup at iHea
+ rtMedia</p>
+LOCATION:iHeartMedia\, 20880 Stone Oak Pkwy\, San Antonio\, TX 78258
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
@@ -21,13 +21,13 @@ LOCATION:Pho Cong Ly\, 300 W Bitters Rd\, San Antonio\, TX 78216
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:<p>Social Gathering for Noodles and Stuff</p>
-DTSTART:2019-01-18 12:00:00
-DTEND:2019-01-18 13:30:00
-DTSTAMP:2019-01-18 00:00:00
-UID:Meeting for Noodles - January 2019<p>Social Gathering for Noodles and 
- Stuff</p>
-LOCATION:Kimura\, 152 E Pecan St #102\, San Antonio\, TX 78205
+SUMMARY:<p>A Chinese New Year Dinner for the SA Developers!</p>
+DTSTART:2019-02-27 18:00:00
+DTEND:2019-02-27 20:00:00
+DTSTAMP:2019-02-23 00:00:00
+UID:A Chinese New Year Dinner for Devs<p>A Chinese New Year Dinner for the
+  SA Developers!</p>
+LOCATION:Sichuan House\, 3505 Wurzbach Rd #102\, San Antonio\, TX 78238
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
@@ -43,23 +43,23 @@ LOCATION:Alamo Post 2 - The American Legion\, 3518 Fredericksburg Road\, S
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:<p>A Chinese New Year Dinner for the SA Developers!</p>
-DTSTART:2019-02-27 18:00:00
-DTEND:2019-02-27 20:00:00
-DTSTAMP:2019-02-23 00:00:00
-UID:A Chinese New Year Dinner for Devs<p>A Chinese New Year Dinner for the
-  SA Developers!</p>
-LOCATION:Sichuan House\, 3505 Wurzbach Rd #102\, San Antonio\, TX 78238
+SUMMARY:<p>Social Gathering for Noodles and Stuff</p>
+DTSTART:2019-01-18 12:00:00
+DTEND:2019-01-18 13:30:00
+DTSTAMP:2019-01-18 00:00:00
+UID:Meeting for Noodles - January 2019<p>Social Gathering for Noodles and 
+ Stuff</p>
+LOCATION:Kimura\, 152 E Pecan St #102\, San Antonio\, TX 78205
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:<p>A brief summary of our third meetup at iHeartMedia</p>
-DTSTART:2018-10-24 19:00:00
-DTEND:2018-10-24 21:00:00
-DTSTAMP:2018-10-25 00:00:00
-UID:The Third SA Devs Meetup<p>A brief summary of our third meetup at iHea
- rtMedia</p>
-LOCATION:iHeartMedia\, 20880 Stone Oak Pkwy\, San Antonio\, TX 78258
+SUMMARY:<p>Information about the San Antonio Devs Q2 2019 meetup</p>
+DTSTART:2019-05-16 18:30:00
+DTEND:2019-05-16 21:00:00
+DTSTAMP:2019-04-29 00:00:00
+UID:San Antonio Devs Meetup - Q2 2019<p>Information about the San Antonio 
+ Devs Q2 2019 meetup</p>
+LOCATION:Launch SA\, 600 Soledad St. San Antonio\, TX 78205
 PRIORITY:5
 END:VEVENT
 END:VCALENDAR
