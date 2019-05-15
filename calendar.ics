@@ -2,12 +2,15 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//My calendar product//mxm.dk//
 BEGIN:VEVENT
-SUMMARY:<p>Social Gathering for Pho and Stuff</p>
-DTSTART:2018-12-14 12:00:00
-DTEND:2018-12-14 13:30:00
-DTSTAMP:2018-12-05 00:00:00
-UID:Meeting for Noodles<p>Social Gathering for Pho and Stuff</p>
-LOCATION:Pho Cong Ly\, 300 W Bitters Rd\, San Antonio\, TX 78216
+SUMMARY:<p>Information about the first San Antonio Devs meetup of 2019!</p
+ >
+DTSTART:2019-02-20 18:30:00
+DTEND:2019-02-20 21:00:00
+DTSTAMP:2019-02-12 00:00:00
+UID:San Antonio Devs Meetup - Q1 2019<p>Information about the first San An
+ tonio Devs meetup of 2019!</p>
+LOCATION:Alamo Post 2 - The American Legion\, 3518 Fredericksburg Road\, S
+ an Antonio\, TX 78201
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
@@ -21,15 +24,13 @@ LOCATION:Launch SA\, 600 Soledad St. San Antonio\, TX 78205
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:<p>Information about the first San Antonio Devs meetup of 2019!</p
- >
-DTSTART:2019-02-20 18:30:00
-DTEND:2019-02-20 21:00:00
-DTSTAMP:2019-02-12 00:00:00
-UID:San Antonio Devs Meetup - Q1 2019<p>Information about the first San An
- tonio Devs meetup of 2019!</p>
-LOCATION:Alamo Post 2 - The American Legion\, 3518 Fredericksburg Road\, S
- an Antonio\, TX 78201
+SUMMARY:<p>Social Gathering for Noodles and Stuff</p>
+DTSTART:2019-01-18 12:00:00
+DTEND:2019-01-18 13:30:00
+DTSTAMP:2019-01-18 00:00:00
+UID:Meeting for Noodles - January 2019<p>Social Gathering for Noodles and 
+ Stuff</p>
+LOCATION:Kimura\, 152 E Pecan St #102\, San Antonio\, TX 78205
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
@@ -53,13 +54,12 @@ LOCATION:iHeartMedia\, 20880 Stone Oak Pkwy\, San Antonio\, TX 78258
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:<p>Social Gathering for Noodles and Stuff</p>
-DTSTART:2019-01-18 12:00:00
-DTEND:2019-01-18 13:30:00
-DTSTAMP:2019-01-18 00:00:00
-UID:Meeting for Noodles - January 2019<p>Social Gathering for Noodles and 
- Stuff</p>
-LOCATION:Kimura\, 152 E Pecan St #102\, San Antonio\, TX 78205
+SUMMARY:<p>Social Gathering for Pho and Stuff</p>
+DTSTART:2018-12-14 12:00:00
+DTEND:2018-12-14 13:30:00
+DTSTAMP:2018-12-05 00:00:00
+UID:Meeting for Noodles<p>Social Gathering for Pho and Stuff</p>
+LOCATION:Pho Cong Ly\, 300 W Bitters Rd\, San Antonio\, TX 78216
 PRIORITY:5
 END:VEVENT
 END:VCALENDAR
