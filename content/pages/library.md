@@ -20,15 +20,24 @@ more recommendations are added. If there is a book which is free and open to the
 
 ## Coding Architecture
 
-**[ATDD by Example: A Practical Guide to Acceptance Test-Driven Development by Markus Gartner](https://www.goodreads.com/en/book/show/13705173-atdd-by-example)**  
+> ### **[ATDD by Example: A Practical Guide to Acceptance Test-Driven Development](https://www.goodreads.com/en/book/show/13705173-atdd-by-example)**
+>
+> **Author(s)**: Markus Gartner  
+> **SADev_Member**: @tex  
 
 ## Philosophical
 
-**[Working Effectively with Legacy Code by Michael C. Feathers](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052)**  
+> ### **[Working Effectively with Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052)**  
+>
+> **Author(s)**: Michael C. Feathers  
+> **SADev_Member**: @bigjonroberts  
 
 ## UI/UX
 
-**[A Project Guide to UX Design by Ross Unger and Carolyn Chandler](https://www.amazon.com/Project-Guide-Design-Experience-Designers/dp/0321607376)**
+> ### **[A Project Guide to UX Design](https://www.amazon.com/Project-Guide-Design-Experience-Designers/dp/0321607376)**
+>
+> **Author(s)**: Ross Unger and Carolyn Chandler  
+> **SADev_Member**: @tex  
 
 ___
 
