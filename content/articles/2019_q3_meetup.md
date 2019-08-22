@@ -14,7 +14,7 @@ Submit your talk here: https://docs.google.com/forms/d/e/1FAIpQLSedSyp98xFyQ6P_I
 
 Please RSVP at the link Below.
 
-<http://www.twitter.com/home?status=I+am+attending+https://www.eventbrite.com/e/san-antonio-devs-meetup-2019-q3-tickets-70171588109>
+<https://www.eventbrite.com/e/san-antonio-devs-meetup-2019-q3-tickets-70171588109>
 
 Food and drinks will be available.
 
