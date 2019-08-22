@@ -8,7 +8,11 @@ Event-start: 2019-09-17 19:00
 Event-duration: 150m
 Event-location: Geekdom Event Centre, 131 Soledad St, San Antonio, TX 78205
 
-Our first ever series of community lightning talks!  Please RSVP at the link Below.
+Our first ever series of community lightning talks!
+
+Submit your talk here: https://docs.google.com/forms/d/e/1FAIpQLSedSyp98xFyQ6P_Iluy3RQD8v4400Ua8-_HES_uLKAqUoS28g/viewform?usp=sf_link
+
+Please RSVP at the link Below.
 
 <http://www.twitter.com/home?status=I+am+attending+https://www.eventbrite.com/e/san-antonio-devs-meetup-2019-q3-tickets-70171588109>
 
