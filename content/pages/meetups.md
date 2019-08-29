@@ -10,6 +10,7 @@ If you are new in town or are just wondering what to do any given first, second,
 
 ## Meetups
 
+- [VueSA](https://www.meetup.com/VueSA-Developers/)
 - [SA Web Dev](https://www.meetup.com/sawebdev/)
 - [San Antonio WordPress Meetup Group](https://www.meetup.com/SanAntonioWordPress/)
 - [ReactSA](https://www.meetup.com/ReactSA/)
