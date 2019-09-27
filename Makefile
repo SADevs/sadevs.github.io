@@ -1,6 +1,8 @@
 PY?=python3
 PELICAN?=pelican
 PELICANOPTS=
+PIPENV?=pipenv
+PIPENV_RUN?=$(PIPENV) run
 
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
@@ -61,67 +63,49 @@ help:
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo '                                                                          '
 
-icalendar:
-	python -c "import icalendar" || pip install icalendar
+install:
+	$(PIPENV) install
 
 themes/brutalist/README.md:
 	git submodule update --init
 
-html: icalendar themes/brutalist/README.md
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+html: install themes/brutalist/README.md
+	$(PIPENV_RUN) $(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
-regenerate: icalendar themes/brutalist/README.md
-	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+regenerate: installthemes/brutalist/README.md
+	$(PIPENV_RUN) $(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 serve:
 ifdef PORT
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server $(PORT)
+	cd $(OUTPUTDIR) && $(PIPENV_RUN) $(PY) -m pelican.server $(PORT)
 else
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server
+	cd $(OUTPUTDIR) && $(PIPENV_RUN) $(PY) -m pelican.server
 endif
 
 serve-global:
 ifdef SERVER
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server 80 $(SERVER)
+	cd $(OUTPUTDIR) && $(PIPENV_RUN) $(PY) -m pelican.server 80 $(SERVER)
 else
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server 80 0.0.0.0
+	cd $(OUTPUTDIR) && $(PIPENV_RUN) $(PY) -m pelican.server 80 0.0.0.0
 endif
 
 
 devserver:
 ifdef PORT
-	$(BASEDIR)/develop_server.sh restart $(PORT)
+	$(PIPENV_RUN) $(BASEDIR)/develop_server.sh restart $(PORT)
 else
-	$(BASEDIR)/develop_server.sh restart
+	$(PIPENV_RUN) $(BASEDIR)/develop_server.sh restart
 endif
 
 stopserver:
-	$(BASEDIR)/develop_server.sh stop
+	$(PIPENV_RUN) $(BASEDIR)/develop_server.sh stop
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
 publish: icalendar themes/brutalist/README.md
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
-
-ssh_upload: publish
-	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
-
-rsync_upload: publish
-	rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --delete $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude
-
-dropbox_upload: publish
-	cp -r $(OUTPUTDIR)/* $(DROPBOX_DIR)
-
-ftp_upload: publish
-	lftp ftp://$(FTP_USER)@$(FTP_HOST) -e "mirror -R $(OUTPUTDIR) $(FTP_TARGET_DIR) ; quit"
-
-s3_upload: publish
-	s3cmd sync $(OUTPUTDIR)/ s3://$(S3_BUCKET) --acl-public --delete-removed --guess-mime-type --no-mime-magic --no-preserve
-
-cf_upload: publish
-	cd $(OUTPUTDIR) && swift -v -A https://auth.api.rackspacecloud.com/v1.0 -U $(CLOUDFILES_USERNAME) -K $(CLOUDFILES_API_KEY) upload -c $(CLOUDFILES_CONTAINER) .
+	$(PIPENV_RUN) $(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
