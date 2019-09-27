@@ -64,16 +64,16 @@ help:
 icalendar:
 	python -c "import icalendar" || pip install icalendar
 
-themes/brutalist:
+themes/brutalist/README.md:
 	git submodule update --init
 
-html: icalendar themes/brutalist
+html: icalendar themes/brutalist/README.md
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
-regenerate: icalendar themes/brutalist
+regenerate: icalendar themes/brutalist/README.md
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 serve:
