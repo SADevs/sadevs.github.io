@@ -15,13 +15,14 @@ This is an open invitation and challenge to all developers who want to flex thei
 or try out a new language while solving programming puzzles.
 
 ## What is Advent of Code (AoC)
-If you are unfamiliar with AoC, I would recommned that you go to their about page [HERE](https://adventofcode.com/2019/about)
+If you are unfamiliar with AoC, I would recommend that you go to their about page [HERE](https://adventofcode.com/2019/about)
 
-TL;DR;
+## **TL;DR;**
 
- **Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.**
+> **Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.**
 
-A new puzzle is release / unlocked at midnight EST/UTC-5 every day from Dec 1 to Dec 25
+**NOTE:**
+A new puzzle is released / unlocked at midnight EST/UTC-5 every day from Dec 1 to Dec 25
 
 ## How Do I Join
 
