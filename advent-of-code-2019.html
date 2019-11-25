@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>San Antonio Developers</title>
+          <title>San Antonio Developers</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charset="utf-8" />
         <link href="https://sanantoniodevs.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="San Antonio Developers Full Atom Feed" />
+        <link href="https://sanantoniodevs.com/feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="San Antonio Developers Categories Atom Feed" />
         <!-- twitter card metadata -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://sanantoniodevs.com/images/sadev_500w.png">
+<meta name="twitter:site" content="">
+<meta name="twitter:title" content="Advent of Code (AoC) 2019 Code Jam">
+<meta name="twitter:description" content="">
         <!-- OG Tags -->
-<meta property="og:url" content="https://sanantoniodevs.com/tag/aoc"/>
-<meta property="og:title" content="San Antonio Developers | aoc" />
+<meta property="og:url" content="https://sanantoniodevs.com/advent-of-code-2019.html"/>
+<meta property="og:title" content="San Antonio Developers | Advent of Code (AoC) 2019 Code Jam" />
+<meta property="og:description" content="" />
         <!-- favicon -->
         <!-- moment.js for date formatting -->
         <script src="https://sanantoniodevs.com/theme/js/moment.js"></script>
@@ -37,6 +44,11 @@
                     });
             };
         </script>
+
+
+    <meta name="tags" content="code-jam" />
+    <meta name="tags" content="aoc" />
+
 </head>
 <body>
     <div role="banner" id="masthead">
@@ -51,74 +63,83 @@
                         <li><a href="https://sanantoniodevs.com/pages/local-meetups.html">local-meetups</a></li>
                         <li><a href="https://sanantoniodevs.com/pages/rules.html">rules</a></li>
                         <li><a href="https://join.slack.com/t/sanantoniodevs/shared_invite/MjE2ODI0NDQ4NjkwLTE1MDA5MDgwODctMzcxMmZhNjE0Zg">slack</a></li>
-                            <li><a href="https://sanantoniodevs.com/category/articles.html">articles</a></li>
+                            <li class="active"><a href="https://sanantoniodevs.com/category/articles.html">articles</a></li>
                 </ul>
             </nav>
         </header>
     </div>
         <div class="page" role="main">
-<div class="page-title">
-    <h1>aoc</h1>
-</div>
-<div class="articles">
-        <ol>
-            <li>
-                <article>
-                    <footer>
-                         <p>
-                            <time datetime="2019-11-25 00:00:00-06:00">
-                                <script>document.write(moment('2019-11-25 00:00:00-06:00').format('LL'));</script>
-                            </time>
-                                    in <a href="https://sanantoniodevs.com/category/articles.html"><span class="category-tag">articles</span></a>
-                        </p>
-                    </footer>
-                    <header>
-                        <a href="https://sanantoniodevs.com/advent-of-code-2019.html">
-                            <h2>Advent of Code (AoC) 2019 Code Jam</h2>
-                        </a>
-                    </header>
-                    <div class="summary"> </div>
-                    <div class="tags">
-                        <ul class="tags">
-                            <li><a href="https://sanantoniodevs.com/tag/code-jam.html" class="tag">code-jam</a></li>
-                            <li><a href="https://sanantoniodevs.com/tag/aoc.html" class="tag">aoc</a></li>
-                        </ul>
-                    </div>
-                    <a href="https://sanantoniodevs.com/advent-of-code-2019.html">
-                        <p class="readmore">Read more...</p>
-                    </a>
-                </article>
-            </li>
-            <li>
-                <article>
-                    <footer>
-                         <p>
-                            <time datetime="2018-11-30 00:00:00-06:00">
-                                <script>document.write(moment('2018-11-30 00:00:00-06:00').format('LL'));</script>
-                            </time>
-                                    in <a href="https://sanantoniodevs.com/category/articles.html"><span class="category-tag">articles</span></a>
-                        </p>
-                    </footer>
-                    <header>
-                        <a href="https://sanantoniodevs.com/advent-of-code-coding-jam.html">
-                            <h2>Advent of Code (AoC) 2018 Code Jam</h2>
-                        </a>
-                    </header>
-                    <div class="summary"> </div>
-                    <div class="tags">
-                        <ul class="tags">
-                            <li><a href="https://sanantoniodevs.com/tag/code-jam.html" class="tag">code-jam</a></li>
-                            <li><a href="https://sanantoniodevs.com/tag/aoc.html" class="tag">aoc</a></li>
-                        </ul>
-                    </div>
-                    <a href="https://sanantoniodevs.com/advent-of-code-coding-jam.html">
-                        <p class="readmore">Read more...</p>
-                    </a>
-                </article>
-            </li>
-        </ol>
-        
-</div>                <footer>
+  <div class="article" role="article">
+    <article>
+        <footer>
+            <a name="top"></a>
+            <p>
+              <time datetime=" 2019-11-25 00:00:00-06:00">
+                <script>document.write(moment('2019-11-25 00:00:00-06:00').format('LL'));</script>
+              </time>
+            </p>
+        </footer>
+        <header>
+          <h2>
+            Advent of Code (AoC) 2019 Code Jam
+          </h2>
+        </header>
+      <div class="content">        <h1>Second Annual SA Developers Advent of Code (AoC) Code Jam</h1>
+<p>Welcome all members of the San Antonio Web Developers community and Slack group. I do
+apologize for the late entry for this article but better late then never. At the time of
+this writing there are 5 days until the first challenge is released on Dec 1, 2019 Midnight EST.  </p>
+<p>This is an open invitation and challenge to all developers who want to flex their skills
+or try out a new language while solving programming puzzles.</p>
+<h2>What is Advent of Code (AoC)</h2>
+<p>If you are unfamiliar with AoC, I would recommned that you go to their about page <a href="https://adventofcode.com/2019/about">HERE</a></p>
+<p>TL;DR;</p>
+<p><strong>Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.</strong></p>
+<p>A new puzzle is release / unlocked at midnight EST/UTC-5 every day from Dec 1 to Dec 25</p>
+<h2>How Do I Join</h2>
+<p>First you will need to sign in to <a href="https://adventofcode.com/">Advent of Code</a>, You can link
+with your Github, Google or Email address. Once you are registered you can join the SA Developers
+private leaderboard</p>
+<p>To join the private leaderboard, click on the link <code>[LeaderBoard]</code> -&gt; <code>[Private Leaderboard]</code>
+There should be an input box for you to enter the private leaderboard code below to join in on the
+reindeer games. </p>
+<p>Or just use this link <a href="https://adventofcode.com/2019/leaderboard/private">here</a> and enter the code below.  </p>
+<p><strong>SA DEVS PRIVATE LEADERBOARD CODE</strong></p>
+<p><code>215653-c4570711</code></p>
+<p>You can also post comments / questions / ~~boast of programming superiority~~ help other
+members of the SADev community. This should be a <strong>FUN</strong> way to interact with each other. <strong>#devsbeingchill</strong></p>
+<h2>Is this worth my time</h2>
+<p>Objectively, YES. You get to meet / compete with other developers in the SA Developer community
+and bask in the glory that is being higher ranked than some other seasoned developers. Bwahahaha!!</p>
+<p>There's also a gift card / cash prize for the winner or potential winners at the end of the challenge.
+As of this writing, the current prize is valued at 💰$10💰. The prize purse can potentially grow depending
+on the generousity of other developers in the community who wish to contribute.</p>
+<h2><strong>PRIZE CONTRIBUTORS</strong></h2>
+<h3><em>@cptcrunch</em></h3>
+<p>Thanks and have fun!</p>
+      </div>
+      <div class="back-to-top">
+          <a href="#top">back to top</a>
+      </div>
+      <div id="disqus_thread"></div>
+        <script>
+          var disqus_config = function () {
+          this.page.url = "https://sanantoniodevs.com/advent-of-code-2019.html";  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = "advent-of-code-2019"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+        </script>
+        <script>
+        (function() {
+              var d = document, s = d.createElement('script');
+              s.src = 'https://sanantoniodevs.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </article>
+  </div>
+<!-- end article -->
+                <footer>
                     <div class="icons">
                         <a href="https://twitter.com/SA_Devs" target="_blank"><div class="icon-twitter icon"></div></a>
                         <a href="https://github.com/sadevs" target="_blank"><div class="icon-github icon"></div></a>
