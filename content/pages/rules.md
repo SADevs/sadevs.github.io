@@ -6,21 +6,19 @@ Summary: The rules of the slack group. Respect them!
 
 # Purpose
 
-The San Antonio Developers slack group is a place for local SA developers to connect, a place to ask for help, and discuss work and interests. See more in the [about](/about) section of this site.
+The San Antonio Developers slack group is a place for local SA developers to connect, a place to ask for help, and discuss work and interests. See more in the [about](/pages/about) section of this site.
 
 # Slack SADevs Rules and Guidelines
 
-1. Do not @channel in #general.
 1. Respect each other and the tools we use.
 1. Check the channel list before you decide to make a new channel. If a channel already exists that you want to create, just join it and start chatting!
 1. When creating a new channel, make sure you have a clear purpose for the channel. Do not create channels that others will not join or contribute to the discussion. It will be erased.
 1. If you have an issue, contact an admin. You can see the list of admins down below.
+1. Any kind of harassment reported to or observed by the admins will result in the immediate ejection of the harasser from the community.
 
 San Antonio Devs Slack is dedicated to providing a harassment-free experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of participants in any form. Sexual language and imagery is not appropriate for any chat topic. Participants violating these rules will be expelled from the group at the sole discretion of the group administrators.
 
 Harassment includes offensive comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images, deliberate intimidation, stalking, sustained disruption of discussions or other events, and unwelcome sexual attention.
-
-Participants asked to stop any harassing behavior are expected to comply immediately.
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please notify an administrator immediately. We can be pinged directly.
 
@@ -34,7 +32,7 @@ Thanks, and happy chatting, San Antonio Developers!
 
 Current admins:
 
-1. propagandapanda4 - Omar
+1. Omar - Omar
 1. gtmanfred - Daniel
 1. drlordrevandrew - Andrew
 1. redrobot - Douglas
