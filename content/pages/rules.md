@@ -32,7 +32,7 @@ Thanks, and happy chatting, San Antonio Developers!
 
 Current admins:
 
-1. Omar - Omar
 1. gtmanfred - Daniel
 1. drlordrevandrew - Andrew
 1. redrobot - Douglas
+1. bigjonroberts - Jon
