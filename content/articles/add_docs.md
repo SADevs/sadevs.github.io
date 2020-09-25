@@ -14,57 +14,67 @@ This is a good opportunity for you to contribute something to the community with
 
 Our site is a static site hosted somewhere out there on the Internet. Super mysterious. You can find the repository of our site here: [https://github.com/SADevs/sadevs.github.io](https://github.com/SADevs/sadevs.github.io). [Fork](https://help.github.com/en/articles/fork-a-repo) the website's repo and [clone](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) it to your local machine. Below are quick steps to clone your fork, update all the submodules (important to get our theme pulled down), and add the main repo as an upstream (important for syncing your fork later): 
 
-    git clone [your fork url]
-    git submodule update --init
-    git remote add upstream git@github.com:SADevs/sadevs.github.io.git
+```shell
+git clone [your fork url]
+git submodule update --init
+git remote add upstream git@github.com:SADevs/sadevs.github.io.git
+```
 
 ## Syncing your fork
 If you've already forked the repo and want to sync it, [Github](https://help.github.com/en/articles/syncing-a-fork) offers some great documentation on doing it. If you cloned the repo following the above steps, you can follow the Github's documentation. If you didn't check out [these directions](https://help.github.com/en/articles/configuring-a-remote-for-a-fork) for adding the remote.
 
-You'll need to sync your fork after any changes are made in the main repo (like your PR being merged!!)
+You'll need to sync your fork after any changes are made in the main repo (like your PR being merged).
 
 ## Pelican Power!
 The site is powered by [Pelican](https://github.com/getpelican/pelican), which is a static site generator written in Python. If you have Python on your machine and you want to see what your article looks like on your local machine, install Pelican by typing in your terminal 
 
-    pip install pipenv # if you don't have pipenv on your machine already
-    pipenv install
+```shell
+# if you don't have pipenv on your machine already
+pip install pipenv
+pipenv install
+```
 
 You can learn more about [pipenv here](https://realpython.com/pipenv-guide/).
 
 This will get the necessary packages to use this static site generator. To build and run the site locally, use the following commands:
 
-    pipenv run pelican content -vvv -o output -s pelicanconf.py
-    cd output
-    python -m http.server
+```shell
+pipenv run pelican content -vvv -o output -s pelicanconf.py
+pipenv run pelican --listen
+```
 
-Open a browser and go to http://localhost:8000 to view the content. **Note that the links will link to the actual site instead of the locally generated site, so if you made changes and you are not seeing them, check the URL at the top to see where you are.**
+Open a browser and go to http://localhost:8000 to view the content. 
+
+**Note that the links will link to the actual site instead of the locally generated site, so if you made changes and you are not seeing them, check the URL at the top to see where you are.**
 
 ### New Article Template
 Copy this template to get you started into a new file with a relevant name of your article and ending with a markdown extension:
 
-    Title: How to install Pelican
-    Date: 11-29-2018
-    Tags: how-to, docs
-    Slug: how-to-install-pelican
-    Authors: Omar Quimbaya
-    Summary: A short tutorial on how to install Pelican
+```markdown
+Title: How to install Pelican
+Date: 11-29-2018
+Tags: how-to, docs
+Slug: how-to-install-pelican
+Authors: Omar Quimbaya
+Summary: A short tutorial on how to install Pelican
 
-    # How to install Pelican
+# How to install Pelican
 
-    <some text goes here>
+<some text goes here>
 
-        # code example
-        print("hello world")
+    # code example
+    print("hello world")
 
-    ## Secondary Heading
+## Secondary Heading
 
-    ### Tertiary Heading
+### Tertiary Heading
 
-    [Links for more information](https://blog.getpelican.com/)
+[Links for more information](https://blog.getpelican.com/)
+```
 
 ## Making a PR
 
-Once your document is done and you feel like you've said all you could about a topic, commit and push that to the `website` branch of your clone repository. Go to your repo and submit a pull request to add your changes to the site. Once an admin reviews your article and accepts the pull request, it will start CI that will publish the article to the site.
+Once your document is done and you feel like you've said all you could about a topic, commit and push that to the `website` branch of your clone repository. Go to your repo and submit a pull request to add your changes to the site. Once an admin reviews your article and accepts the pull request, it will start a process that will publish the article to the site.
 
 ## Additional Questions
 

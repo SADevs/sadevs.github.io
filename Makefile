@@ -62,9 +62,9 @@ regenerate: installthemes/brutalist/README.md
 
 serve:
 ifdef PORT
-	cd $(OUTPUTDIR) && $(PIPENV_RUN) $(PY) -m pelican.server $(PORT)
+	cd $(OUTPUTDIR) && $(PIPENV_RUN) $(PELICAN) --listen $(PORT)
 else
-	cd $(OUTPUTDIR) && $(PIPENV_RUN) $(PY) -m pelican.server
+	cd $(OUTPUTDIR) && $(PIPENV_RUN) $(PELICAN) --listen
 endif
 
 serve-global:
