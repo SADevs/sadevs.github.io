@@ -89,7 +89,7 @@
 <p>This is a good opportunity for you to contribute something to the community without that much effort! In order to do so, here is how you do it.</p>
 <h2>Fork the repo!</h2>
 <p>Our site is a static site hosted somewhere out there on the Internet. Super mysterious. You can find the repository of our site here: <a href="https://github.com/SADevs/sadevs.github.io">https://github.com/SADevs/sadevs.github.io</a>. <a href="https://help.github.com/en/articles/fork-a-repo">Fork</a> the website's repo and <a href="https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository">clone</a> it to your local machine. Below are quick steps to clone your fork, update all the submodules (important to get our theme pulled down), and add the main repo as an upstream (important for syncing your fork later): </p>
-<div class="highlight"><pre><span></span>git clone [your fork url]
+<div class="highlight"><pre><span></span>git clone <span class="o">[</span>your fork url<span class="o">]</span>
 git submodule update --init
 git remote add upstream git@github.com:SADevs/sadevs.github.io.git
 </pre></div>
@@ -97,10 +97,11 @@ git remote add upstream git@github.com:SADevs/sadevs.github.io.git
 
 <h2>Syncing your fork</h2>
 <p>If you've already forked the repo and want to sync it, <a href="https://help.github.com/en/articles/syncing-a-fork">Github</a> offers some great documentation on doing it. If you cloned the repo following the above steps, you can follow the Github's documentation. If you didn't check out <a href="https://help.github.com/en/articles/configuring-a-remote-for-a-fork">these directions</a> for adding the remote.</p>
-<p>You'll need to sync your fork after any changes are made in the main repo (like your PR being merged!!)</p>
+<p>You'll need to sync your fork after any changes are made in the main repo (like your PR being merged).</p>
 <h2>Pelican Power!</h2>
 <p>The site is powered by <a href="https://github.com/getpelican/pelican">Pelican</a>, which is a static site generator written in Python. If you have Python on your machine and you want to see what your article looks like on your local machine, install Pelican by typing in your terminal </p>
-<div class="highlight"><pre><span></span>pip install pipenv # if you don&#39;t have pipenv on your machine already
+<div class="highlight"><pre><span></span><span class="c1"># if you don&#39;t have pipenv on your machine already</span>
+pip install pipenv
 pipenv install
 </pre></div>
 
@@ -108,12 +109,12 @@ pipenv install
 <p>You can learn more about <a href="https://realpython.com/pipenv-guide/">pipenv here</a>.</p>
 <p>This will get the necessary packages to use this static site generator. To build and run the site locally, use the following commands:</p>
 <div class="highlight"><pre><span></span>pipenv run pelican content -vvv -o output -s pelicanconf.py
-cd output
-python -m http.server
+pipenv run pelican --listen
 </pre></div>
 
 
-<p>Open a browser and go to http://localhost:8000 to view the content. <strong>Note that the links will link to the actual site instead of the locally generated site, so if you made changes and you are not seeing them, check the URL at the top to see where you are.</strong></p>
+<p>Open a browser and go to http://localhost:8000 to view the content. </p>
+<p><strong>Note that the links will link to the actual site instead of the locally generated site, so if you made changes and you are not seeing them, check the URL at the top to see where you are.</strong></p>
 <h3>New Article Template</h3>
 <p>Copy this template to get you started into a new file with a relevant name of your article and ending with a markdown extension:</p>
 <div class="highlight"><pre><span></span><span class="n">Title</span><span class="o">:</span> <span class="n">How</span> <span class="n">to</span> <span class="n">install</span> <span class="n">Pelican</span>
@@ -125,7 +126,7 @@ python -m http.server
 
 <span class="err">#</span> <span class="n">How</span> <span class="n">to</span> <span class="n">install</span> <span class="n">Pelican</span>
 
-<span class="o">&amp;</span><span class="n">lt</span><span class="o">;</span><span class="n">some</span> <span class="n">text</span> <span class="n">goes</span> <span class="n">here</span><span class="o">&amp;</span><span class="n">gt</span><span class="o">;</span>
+<span class="o">&lt;</span><span class="n">some</span> <span class="n">text</span> <span class="n">goes</span> <span class="n">here</span><span class="o">&gt;</span>
 
     <span class="err">#</span> <span class="n">code</span> <span class="n">example</span>
     <span class="n">print</span><span class="o">(</span><span class="s2">&quot;hello world&quot;</span><span class="o">)</span>
@@ -139,7 +140,7 @@ python -m http.server
 
 
 <h2>Making a PR</h2>
-<p>Once your document is done and you feel like you've said all you could about a topic, commit and push that to the <code>website</code> branch of your clone repository. Go to your repo and submit a pull request to add your changes to the site. Once an admin reviews your article and accepts the pull request, it will start CI that will publish the article to the site.</p>
+<p>Once your document is done and you feel like you've said all you could about a topic, commit and push that to the <code>website</code> branch of your clone repository. Go to your repo and submit a pull request to add your changes to the site. Once an admin reviews your article and accepts the pull request, it will start a process that will publish the article to the site.</p>
 <h2>Additional Questions</h2>
 <p>If you have any more questions or run into any issues, reach out in #website on Slack. </p>
 <p>Happy writing, and thank you for contributing to the SA Developers Group!</p>
