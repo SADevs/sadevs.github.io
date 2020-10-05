@@ -15,7 +15,7 @@ I sympathize with the Youtuber, and I believe they had good intentions, but I be
 this lines up with the overall mentality of Imposter Syndrome which many of us, including
 myself, share. The concept of contributing to an open source project is noble and exciting.
 Some projects are only alive because of a community that enjoys the service or project
-that has postively impacted their profession (Rust)[https://github.com/rust-lang/rust]. However, I think there is an underlying barrier
+that has postively impacted their profession [Rust](https://github.com/rust-lang/rust). However, I think there is an underlying barrier
 that can scare off would be contributors.
 
 These contributors instead only "contribute" by correcting `README`s. Generally,
