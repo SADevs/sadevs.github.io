@@ -5,7 +5,11 @@ import os
 
 AUTHOR = 'San Antonio Developers'
 SITENAME = 'San Antonio Developers'
-SITEURL = f'https://{os.getenv("APP_NAME", None) or "sanantoniodevs.com"}'
+APP_NAME = os.getenv('APP_NAME', None)
+if APP_NAME:
+    SITEURL = f'https//{{APP_NAME}}.herokuapp.com'
+else:
+    SITE_URL = 'https://sanantoniodevs.com'
 THEME = 'themes/brutalist'
 THEME_TEMPLATES_OVERRIDES = ['templates/']
 
