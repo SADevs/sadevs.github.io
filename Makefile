@@ -50,10 +50,7 @@ endif
 install: pipenv
 	$(PIPENV) install
 
-themes/brutalist/README.md:
-	git submodule update --init
-
-html: install themes/brutalist/README.md
+html: install
 	env APP_NAME=$(APP_NAME) $(PIPENV_RUN) $(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
