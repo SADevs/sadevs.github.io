@@ -5,7 +5,7 @@ import os
 
 AUTHOR = 'San Antonio Developers'
 SITENAME = 'San Antonio Developers'
-SITEURL = f'https://{os.getenv("APP_NAME", "sanantoniodevs.com")}'
+SITEURL = f'https://{os.getenv("APP_NAME", None) or "sanantoniodevs.com"}'
 THEME = 'themes/brutalist'
 THEME_TEMPLATES_OVERRIDES = ['templates/']
 
