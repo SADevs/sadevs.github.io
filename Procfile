@@ -1,1 +1,1 @@
-web: make html serve-global PORT=$PORT
+web: make html serve PORT=$PORT

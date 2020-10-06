@@ -68,9 +68,9 @@ endif
 
 serve-global:
 ifdef SERVER
-	$(PIPENV_RUN) $(PY) -m pelican.server 80 $(SERVER) $(OUTPUTDIR)
+	$(PIPENV_RUN) $(PELICAN) 80 $(SERVER) $(OUTPUTDIR)
 else
-	$(PIPENV_RUN) $(PY) -m pelican.server 80 0.0.0.0 $(OUTPUTDIR)
+	$(PIPENV_RUN) $(PELICAN) 80 0.0.0.0 $(OUTPUTDIR)
 endif
 
 
