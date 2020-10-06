@@ -64,16 +64,16 @@ regenerate: installthemes/brutalist/README.md
 
 serve:
 ifdef PORT
-	cd $(OUTPUTDIR) && $(PIPENV_RUN) $(PELICAN) --listen $(PORT)
+	$(PIPENV_RUN) $(PELICAN) --listen -p $(PORT) $(OUTPUTDIR)
 else
-	cd $(OUTPUTDIR) && $(PIPENV_RUN) $(PELICAN) --listen
+	$(PIPENV_RUN) $(PELICAN) --listen $(OUTPUTDIR)
 endif
 
 serve-global:
 ifdef SERVER
-	cd $(OUTPUTDIR) && $(PIPENV_RUN) $(PY) -m pelican.server 80 $(SERVER)
+	$(PIPENV_RUN) $(PY) -m pelican.server 80 $(SERVER) $(OUTPUTDIR)
 else
-	cd $(OUTPUTDIR) && $(PIPENV_RUN) $(PY) -m pelican.server 80 0.0.0.0
+	$(PIPENV_RUN) $(PY) -m pelican.server 80 0.0.0.0 $(OUTPUTDIR)
 endif
 
 
