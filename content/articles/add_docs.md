@@ -78,7 +78,8 @@ Once your document is done and you feel like you've said all you could about a t
 
 ### Reviewing a PR
 
-When your PR is made, CI will deploy a copy of the website to Heroku for review. You'll see this on your PR under "Active Deployments". Use this copy to review the site to make sure your change looks good and didn't break anything!
+After you've made your PR, if you want to spin up a review copy of the website, post in #website and one of the admins can spin up a copy of your changes for review. This will be a separate copy of the site running in Heroku so you can test all of your changes.
+
 
 ## Additional Questions
 
