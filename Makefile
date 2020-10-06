@@ -7,6 +7,8 @@ PIPENV?=$(PYTHON) -m pipenv
 PIPENV_RUN?=$(PIPENV) run
 PIP?=$(PYTHON) -m pip
 
+APP_NAME?=$(HEROKU_APP_NAME)
+
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
@@ -48,11 +50,8 @@ endif
 install: pipenv
 	$(PIPENV) install
 
-themes/brutalist/README.md:
-	git submodule update --init
-
-html: install themes/brutalist/README.md
-	$(PIPENV_RUN) $(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+html: install
+	env APP_NAME=$(APP_NAME) $(PIPENV_RUN) $(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
@@ -62,16 +61,16 @@ regenerate: installthemes/brutalist/README.md
 
 serve:
 ifdef PORT
-	cd $(OUTPUTDIR) && $(PIPENV_RUN) $(PELICAN) --listen $(PORT)
+	$(PIPENV_RUN) $(PELICAN) --listen -p $(PORT) $(OUTPUTDIR)
 else
-	cd $(OUTPUTDIR) && $(PIPENV_RUN) $(PELICAN) --listen
+	$(PIPENV_RUN) $(PELICAN) --listen $(OUTPUTDIR)
 endif
 
 serve-global:
 ifdef SERVER
-	cd $(OUTPUTDIR) && $(PIPENV_RUN) $(PY) -m pelican.server 80 $(SERVER)
+	$(PIPENV_RUN) $(PELICAN) 80 $(SERVER) $(OUTPUTDIR)
 else
-	cd $(OUTPUTDIR) && $(PIPENV_RUN) $(PY) -m pelican.server 80 0.0.0.0
+	$(PIPENV_RUN) $(PELICAN) 80 0.0.0.0 $(OUTPUTDIR)
 endif
 
 

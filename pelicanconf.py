@@ -1,11 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
+import os
 
 
 AUTHOR = 'San Antonio Developers'
 SITENAME = 'San Antonio Developers'
-SITEURL = 'https://sanantoniodevs.com'
+APP_NAME = os.getenv('APP_NAME', None)
+if APP_NAME:
+    SITEURL = f'https://{APP_NAME}.herokuapp.com'
+else:
+    SITE_URL = 'https://sanantoniodevs.com'
 THEME = 'themes/brutalist'
 THEME_TEMPLATES_OVERRIDES = ['templates/']
 
