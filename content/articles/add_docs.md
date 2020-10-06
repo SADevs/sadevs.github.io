@@ -76,6 +76,10 @@ Summary: A short tutorial on how to install Pelican
 
 Once your document is done and you feel like you've said all you could about a topic, commit and push that to the `website` branch of your clone repository. Go to your repo and submit a pull request to add your changes to the site. Once an admin reviews your article and accepts the pull request, it will start a process that will publish the article to the site.
 
+### Reviewing a PR
+
+When your PR is made, CI will deploy a copy of the website to Heroku for review. You'll see this on your PR under "Active Deployments". Use this copy to review the site to make sure your change looks good and didn't break anything!
+
 ## Additional Questions
 
 If you have any more questions or run into any issues, reach out in #website on Slack. 
