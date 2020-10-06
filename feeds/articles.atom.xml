@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>San Antonio Developers - articles</title><link href="https://sanantoniodevs.com/" rel="alternate"></link><link href="https://sanantoniodevs.com/feeds/articles.atom.xml" rel="self"></link><id>https://sanantoniodevs.com/</id><updated>2019-12-23T00:00:00-06:00</updated><entry><title>Goodbye 2019! Hello, 2020!</title><link href="https://sanantoniodevs.com/goodbye-2019-hello-2020.html" rel="alternate"></link><published>2019-12-23T00:00:00-06:00</published><updated>2019-12-23T00:00:00-06:00</updated><author><name>Omar Quimbaya</name></author><id>tag:sanantoniodevs.com,2019-12-23:/goodbye-2019-hello-2020.html</id><summary type="html">&lt;p&gt;A reflection of our community in 2019&lt;/p&gt;</summary><content type="html">&lt;p&gt;Andrew Herrington, Daniel Wallce, Doug Mendizabal, and I started this group on July 24, 2017. The idea to create a slack community of developers from around San Antonio came from a developer named Mark. He had recently come in from Tennessee and reached out to Omar via the Geekdom Slack. He was looking for a place where developers could share ideas and be language agnostic, and in Nashville, they had a slack community with developers from all over the city. Why didn't San Antonio have that?&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>San Antonio Developers - articles</title><link href="https://sanantoniodevs.com/" rel="alternate"></link><link href="https://sanantoniodevs.com/feeds/articles.atom.xml" rel="self"></link><id>https://sanantoniodevs.com/</id><updated>2020-10-05T00:00:00-05:00</updated><entry><title>Hacktoberfest or Spamtoberfest?</title><link href="https://sanantoniodevs.com/hacktoberfest-or-spamtoberfest.html" rel="alternate"></link><published>2020-10-05T00:00:00-05:00</published><updated>2020-10-05T00:00:00-05:00</updated><author><name>Jason Gutierrez</name></author><id>tag:sanantoniodevs.com,2020-10-05:/hacktoberfest-or-spamtoberfest.html</id><summary type="html">&lt;p&gt;An opinion on contributing to open source projects during Hacktoberfest&lt;/p&gt;</summary><content type="html">&lt;h1&gt;To Hacktober or Not to Hacktober?&lt;/h1&gt;
+&lt;p&gt;So in light of some recent events, mostly from a Youtuber with a large following,
+there was a "wave" of "spammy" PRs (Pull Requests) where "contributors" would
+add some text without much context and would be considered valid PRs.&lt;/p&gt;
+&lt;p&gt;I sympathize with the Youtuber, and I believe they had good intentions, but I believe
+this lines up with the overall mentality of Imposter Syndrome which many of us, including
+myself, share. The concept of contributing to an open source project is noble and exciting.
+Some projects are only alive because of a community that enjoys the service or project
+that has postively impacted their profession. (&lt;a href="https://github.com/rust-lang/rust"&gt;Rust&lt;/a&gt;). However, I think there is an underlying barrier
+that can scare off would be contributors.&lt;/p&gt;
+&lt;p&gt;These contributors instead only "contribute" by correcting &lt;code&gt;README&lt;/code&gt;s. Generally,
+PRs should address issues raised by others contributing to the project. Corrections
+to a projects' &lt;code&gt;README&lt;/code&gt; is warranted but should impactful to the reader rather than
+a 👍 reaction / comment for the sake of only making a PR. Maybe the results of the "spam"
+PRs is due to some unintentional intimidation that even some more seasoned developers have experienced.&lt;/p&gt;
+&lt;p&gt;In light of these outcomes and sentiments I believe that the open source community
+shouldn't suffer because of this but rather "inform" would be contributors and follow
+a sort of "honor" system. It should be considered a "given" or even an expectation that
+open source projects would be subject to being "spammed". Perhaps if these projects were more
+prepared and prefaced with a more "beginner" friendly set of instructions, they could
+reduce the "contributor" learning curve. Maybe, create a &lt;code&gt;CONTRIBUTING.md&lt;/code&gt; to a project
+to help other open source contributors. 😉&lt;/p&gt;
+&lt;h2&gt;Recommendations to contributors&lt;/h2&gt;
+&lt;p&gt;If you are looking to contribute to an open source project, be mindful of your contribution.
+You may only interact with this project once in your life, more specifically only during Hacktoberfest.
+Imagine you are a "tourist" in France and you would like to add your "Lock of Love" to a
+particular chain-link fence. Your contribution may not seem like much, but as a city employee
+that might have to "maintain" said fence, it can be overwhelming. &lt;/p&gt;
+&lt;p&gt;The city employee(s) that maintains the fence of locks is aware of these contributions 
+and should provide guidelines to would be "romeos" about the Do's and Don't of adding a lock to the fence.
+Order and community rules allow for a more enjoyable experience for all who chose to contribute.&lt;/p&gt;
+&lt;p&gt;As a contributor, don't be afraid of rules or for that matter, contributing. It is an experience that
+many don't get the chance to take part of. It is an act that allows us to become an active member
+of our tech community and even grow as a developer. &lt;/p&gt;
+&lt;p&gt;Maybe your &lt;em&gt;first&lt;/em&gt; PR is editing a README, that's okay. Challenge yourself to make more "meaningful"
+contributions to the open source community and projects.&lt;/p&gt;</content><category term="opinion"></category><category term="article"></category></entry><entry><title>Goodbye 2019! Hello, 2020!</title><link href="https://sanantoniodevs.com/goodbye-2019-hello-2020.html" rel="alternate"></link><published>2019-12-23T00:00:00-06:00</published><updated>2019-12-23T00:00:00-06:00</updated><author><name>Omar Quimbaya</name></author><id>tag:sanantoniodevs.com,2019-12-23:/goodbye-2019-hello-2020.html</id><summary type="html">&lt;p&gt;A reflection of our community in 2019&lt;/p&gt;</summary><content type="html">&lt;p&gt;Andrew Herrington, Daniel Wallce, Doug Mendizabal, and I started this group on July 24, 2017. The idea to create a slack community of developers from around San Antonio came from a developer named Mark. He had recently come in from Tennessee and reached out to Omar via the Geekdom Slack. He was looking for a place where developers could share ideas and be language agnostic, and in Nashville, they had a slack community with developers from all over the city. Why didn't San Antonio have that?&lt;/p&gt;
 &lt;p&gt;Well, we had the Geekdom slack, but not everyone who was a developer has a $50 a month membership to that coworking space, so the cost alone was prohibitive, and the slack group itself was declining in terms of its community participation. There had to be something better, so the four banded together and worked on building a developer community. &lt;/p&gt;
 &lt;p&gt;Ever since then, our community has grown from those 5 developers (Mark included) to 474 members. Of those 474 members, 71 are currently active, as of writing this blog post. We have not been tracking a lot of metrics from our slack group since its inception, but over the course of two years, we think this is pretty good. &lt;/p&gt;
 &lt;p&gt;What are the goals of the community? Developers to connect, help each other out, and grow as professionals in their craft. The way we support this is by making sure the slack community is an inclusive one where people of all walks of life are welcome; however, there are opportunities for us to improve on this. We welcome community feedback, as well, to help us improve as admins. Please feel free to reach out to us in the DMs if you have feedback or questions. We also support the goals by having quaterly meetups featuring talks from non-technical topics to technical topics. This helps people be introduced to new ideas, develop their soft-skills, meet new people by putting a face to a screenname, and feed them for an evening. These meetups would not have happened without the help of Jon Robers in our group. He took up the sword of event development, organized the admin team, and created some great meetups throughout the year. We are very grateful for the time and work he had put into making those meetups successful.&lt;/p&gt;

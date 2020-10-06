@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>San Antonio Developers - Categories</title>
+          <title>San Antonio Developers</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charset="utf-8" />
         <link href="https://sanantoniodevs.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="San Antonio Developers Full Atom Feed" />
+        <link href="https://sanantoniodevs.com/feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="San Antonio Developers Categories Atom Feed" />
         <!-- twitter card metadata -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://sanantoniodevs.com/images/sadev_500w.png">
+<meta name="twitter:site" content="">
+<meta name="twitter:title" content="Hacktoberfest or Spamtoberfest?">
+<meta name="twitter:description" content="">
         <!-- OG Tags -->
+<meta property="og:url" content="https://sanantoniodevs.com/hacktoberfest-or-spamtoberfest.html"/>
+<meta property="og:title" content="San Antonio Developers | Hacktoberfest or Spamtoberfest?" />
+<meta property="og:description" content="" />
         <!-- favicon -->
         <!-- moment.js for date formatting -->
         <script src="https://sanantoniodevs.com/theme/js/moment.js"></script>
@@ -35,6 +44,11 @@
                     });
             };
         </script>
+
+
+    <meta name="tags" content="opinion" />
+    <meta name="tags" content="article" />
+
 </head>
 <body>
     <div role="banner" id="masthead">
@@ -50,20 +64,86 @@
                         <li><a href="https://sanantoniodevs.com/pages/rules.html">rules</a></li>
                         <li><a href="https://join.slack.com/t/sanantoniodevs/shared_invite/MjE2ODI0NDQ4NjkwLTE1MDA5MDgwODctMzcxMmZhNjE0Zg">slack</a></li>
                         <li><a href="https://github.com/SADevs/sadevs.github.io">github</a></li>
-                            <li><a href="https://sanantoniodevs.com/category/articles.html">articles</a></li>
+                            <li class="active"><a href="https://sanantoniodevs.com/category/articles.html">articles</a></li>
                 </ul>
             </nav>
         </header>
     </div>
         <div class="page" role="main">
-<div class="page-title">
-        <h1>categories</h1>
-</div>
-<div class="articles">
-    <ul>
-        <li><a href="https://sanantoniodevs.com/category/articles.html">articles</a> <span class="count">(14)</span></li>
-    </ul>
-</div>
+  <div class="article" role="article">
+    <article>
+        <footer>
+            <a name="top"></a>
+            <p>
+              <time datetime=" 2020-10-05 00:00:00-05:00">
+                <script>document.write(moment('2020-10-05 00:00:00-05:00').format('LL'));</script>
+              </time>
+            </p>
+        </footer>
+        <header>
+          <h2>
+            Hacktoberfest or Spamtoberfest?
+          </h2>
+        </header>
+      <div class="content">        <h1>To Hacktober or Not to Hacktober?</h1>
+<p>So in light of some recent events, mostly from a Youtuber with a large following,
+there was a "wave" of "spammy" PRs (Pull Requests) where "contributors" would
+add some text without much context and would be considered valid PRs.</p>
+<p>I sympathize with the Youtuber, and I believe they had good intentions, but I believe
+this lines up with the overall mentality of Imposter Syndrome which many of us, including
+myself, share. The concept of contributing to an open source project is noble and exciting.
+Some projects are only alive because of a community that enjoys the service or project
+that has postively impacted their profession. (<a href="https://github.com/rust-lang/rust">Rust</a>). However, I think there is an underlying barrier
+that can scare off would be contributors.</p>
+<p>These contributors instead only "contribute" by correcting <code>README</code>s. Generally,
+PRs should address issues raised by others contributing to the project. Corrections
+to a projects' <code>README</code> is warranted but should impactful to the reader rather than
+a 👍 reaction / comment for the sake of only making a PR. Maybe the results of the "spam"
+PRs is due to some unintentional intimidation that even some more seasoned developers have experienced.</p>
+<p>In light of these outcomes and sentiments I believe that the open source community
+shouldn't suffer because of this but rather "inform" would be contributors and follow
+a sort of "honor" system. It should be considered a "given" or even an expectation that
+open source projects would be subject to being "spammed". Perhaps if these projects were more
+prepared and prefaced with a more "beginner" friendly set of instructions, they could
+reduce the "contributor" learning curve. Maybe, create a <code>CONTRIBUTING.md</code> to a project
+to help other open source contributors. 😉</p>
+<h2>Recommendations to contributors</h2>
+<p>If you are looking to contribute to an open source project, be mindful of your contribution.
+You may only interact with this project once in your life, more specifically only during Hacktoberfest.
+Imagine you are a "tourist" in France and you would like to add your "Lock of Love" to a
+particular chain-link fence. Your contribution may not seem like much, but as a city employee
+that might have to "maintain" said fence, it can be overwhelming. </p>
+<p>The city employee(s) that maintains the fence of locks is aware of these contributions 
+and should provide guidelines to would be "romeos" about the Do's and Don't of adding a lock to the fence.
+Order and community rules allow for a more enjoyable experience for all who chose to contribute.</p>
+<p>As a contributor, don't be afraid of rules or for that matter, contributing. It is an experience that
+many don't get the chance to take part of. It is an act that allows us to become an active member
+of our tech community and even grow as a developer. </p>
+<p>Maybe your <em>first</em> PR is editing a README, that's okay. Challenge yourself to make more "meaningful"
+contributions to the open source community and projects.</p>
+      </div>
+      <div class="back-to-top">
+          <a href="#top">back to top</a>
+      </div>
+      <div id="disqus_thread"></div>
+        <script>
+          var disqus_config = function () {
+          this.page.url = "https://sanantoniodevs.com/hacktoberfest-or-spamtoberfest.html";  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = "hacktoberfest-or-spamtoberfest"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+        </script>
+        <script>
+        (function() {
+              var d = document, s = d.createElement('script');
+              s.src = 'https://sanantoniodevs.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </article>
+  </div>
+<!-- end article -->
                 <footer>
                     <div class="icons">
                         <a href="https://twitter.com/SA_Devs" target="_blank"><div class="icon-twitter icon"></div></a>
