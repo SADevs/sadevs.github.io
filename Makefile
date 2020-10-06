@@ -7,6 +7,8 @@ PIPENV?=$(PYTHON) -m pipenv
 PIPENV_RUN?=$(PIPENV) run
 PIP?=$(PYTHON) -m pip
 
+APP_NAME?=$(HEROKU_APP_NAME)
+
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
@@ -52,7 +54,7 @@ themes/brutalist/README.md:
 	git submodule update --init
 
 html: install themes/brutalist/README.md
-	$(PIPENV_RUN) $(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	env APP_NAME=$(APP_NAME) $(PIPENV_RUN) $(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)

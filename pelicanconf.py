@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
+import os
 
 
 AUTHOR = 'San Antonio Developers'
 SITENAME = 'San Antonio Developers'
-SITEURL = 'https://sanantoniodevs.com'
+SITEURL = f'https://{os.getenv("APP_NAME", "sanantoniodevs.com")}'
 THEME = 'themes/brutalist'
 THEME_TEMPLATES_OVERRIDES = ['templates/']
 
