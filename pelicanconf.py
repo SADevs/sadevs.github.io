@@ -7,7 +7,7 @@ AUTHOR = 'San Antonio Developers'
 SITENAME = 'San Antonio Developers'
 APP_NAME = os.getenv('APP_NAME', None)
 if APP_NAME:
-    SITEURL = f'https//{APP_NAME}.herokuapp.com'
+    SITEURL = f'https://{APP_NAME}.herokuapp.com'
 else:
     SITE_URL = 'https://sanantoniodevs.com'
 THEME = 'themes/brutalist'
