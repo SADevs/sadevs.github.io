@@ -76,9 +76,9 @@ endif
 
 devserver:
 ifdef PORT
-	$(PIPENV_RUN) $(BASEDIR)/develop_server.sh restart $(PORT)
+	$(BASEDIR)/develop_server.sh restart $(PORT)
 else
-	$(PIPENV_RUN) $(BASEDIR)/develop_server.sh restart
+	$(BASEDIR)/develop_server.sh restart
 endif
 
 stopserver:
