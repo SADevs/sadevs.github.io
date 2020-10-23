@@ -18,6 +18,10 @@ The San Antonio Developers slack group is a place for local SA developers to con
 
 San Antonio Devs Slack is dedicated to providing a harassment-free experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of participants in any form. Sexual language and imagery is not appropriate for any chat topic. Participants violating these rules will be expelled from the group at the sole discretion of the group administrators.
 
+Sexual language includes discussion of sex, pornographic content, sexual acts, sexual deviance, and sexual habits regardless of the context. Sexual imagery includes any image, gif, video, etc, that promotes sex, sexualization of any gender or object, or is a representation of a sexual act.
+
+Although our Slack group is meant to be reminiscent of a workplace, we do have a #politics channel, which is meant for discussion of local, national, and world politics. Any discussion of politics that devolves into something that would not be described as healthy, critical discussion will be flagged, and the user will be warned for their behavior. Although politics can be divisive, it is important that our community be open to different ideas and thoughts and not create an environment where people are not free to share their ideas without being attacked by others who disagree with them. 
+
 Harassment includes offensive comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images, deliberate intimidation, stalking, sustained disruption of discussions or other events, and unwelcome sexual attention.
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please notify an administrator immediately. We can be pinged directly.
