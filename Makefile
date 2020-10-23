@@ -82,7 +82,7 @@ else
 endif
 
 stopserver:
-	$(PIPENV_RUN) $(BASEDIR)/develop_server.sh stop
+	$(BASEDIR)/develop_server.sh stop
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
 publish: install themes/brutalist/README.md
