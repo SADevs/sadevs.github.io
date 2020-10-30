@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>San Antonio Developers - Categories</title>
+          <title>San Antonio Developers</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charset="utf-8" />
         <link href="https://sanantoniodevs.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="San Antonio Developers Full Atom Feed" />
+        <link href="https://sanantoniodevs.com/feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="San Antonio Developers Categories Atom Feed" />
         <!-- twitter card metadata -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://sanantoniodevs.com/images/sadev_500w.png">
+<meta name="twitter:site" content="">
+<meta name="twitter:title" content="SA Devs Season of Giving">
+<meta name="twitter:description" content="">
         <!-- OG Tags -->
+<meta property="og:url" content="https://sanantoniodevs.com/season-of-giving-2020.html"/>
+<meta property="og:title" content="San Antonio Developers | SA Devs Season of Giving" />
+<meta property="og:description" content="" />
         <!-- favicon -->
         <!-- moment.js for date formatting -->
         <script src="https://sanantoniodevs.com/theme/js/moment.js"></script>
@@ -35,6 +44,12 @@
                     });
             };
         </script>
+
+
+    <meta name="tags" content="season-of-giving" />
+    <meta name="tags" content="donations" />
+    <meta name="tags" content="charity" />
+
 </head>
 <body>
     <div role="banner" id="masthead">
@@ -50,20 +65,89 @@
                         <li><a href="https://sanantoniodevs.com/pages/rules.html">rules</a></li>
                         <li><a href="https://join.slack.com/t/sanantoniodevs/shared_invite/MjE2ODI0NDQ4NjkwLTE1MDA5MDgwODctMzcxMmZhNjE0Zg">slack</a></li>
                         <li><a href="https://github.com/SADevs/sadevs.github.io">github</a></li>
-                            <li><a href="https://sanantoniodevs.com/category/articles.html">articles</a></li>
+                            <li class="active"><a href="https://sanantoniodevs.com/category/articles.html">articles</a></li>
                 </ul>
             </nav>
         </header>
     </div>
         <div class="page" role="main">
-<div class="page-title">
-        <h1>categories</h1>
-</div>
-<div class="articles">
-    <ul>
-        <li><a href="https://sanantoniodevs.com/category/articles.html">articles</a> <span class="count">(15)</span></li>
-    </ul>
-</div>
+  <div class="article" role="article">
+    <article>
+        <footer>
+            <a name="top"></a>
+            <p>
+              <time datetime=" 2020-11-01 00:00:00-05:00">
+                <script>document.write(moment('2020-11-01 00:00:00-05:00').format('LL'));</script>
+              </time>
+            </p>
+        </footer>
+        <header>
+          <h2>
+            SA Devs Season of Giving
+          </h2>
+          <p>By: Andrew Herrington</p>
+        </header>
+      <div class="content">        <h1>SA Devs Season of Giving</h1>
+<h2>What is Season of Giving</h2>
+<p>During the month of November, let's work together as a group to give to those who can use some help. Donate to your 
+favorite charity (we've got some suggestions below), submit your receipt to SA Devs, and we'll amplify your donation. At
+the end of the month, the SA Devs org will match up to $2000 of community donations to the SA Food Bank.</p>
+<p>Want to sponsor some matching funds? You can sponsor a day, a week, or the entire month and any amount/total. Reach out
+to the admins and we'll add your matching and notify you of totals!</p>
+<p>We also understand some people might want to donate in other ways and we want to celebrate that too! If you donate your 
+time, canned goods, or do any other charitable work and you'd like it celebrated as part of SA Devs Season of Giving,
+reach out to the admins and we'll add it to our donation list! </p>
+<h3>Suggested Charities</h3>
+<p>These are charities that we feel are doing good work in our community. Don't feel like you have to donate to these 
+organizations, but if you're looking for a place to donate these are good choices!</p>
+<p>Do you have an organization you like to work with? Reach out to the admins and we'll add it to our list!</p>
+<h4>San Antonio Food Bank</h4>
+<p><a href="https://safoodbank.org/">https://safoodbank.org/</a></p>
+<h4>Hill Country Daily Bread</h4>
+<p><a href="https://hillcountrydailybread.com/">https://hillcountrydailybread.com/</a></p>
+<h4>Get Up Community Center</h4>
+<p><a href="https://www.getupcommunity.org/food-pantry">https://www.getupcommunity.org/food-pantry</a></p>
+<h3>How to record a donation</h3>
+<ol>
+<li>Take a screenshot or PDF of your donation receipt</li>
+<li>Open a DM to <code>@sadevbot</code></li>
+<li>Send <code>./donation {amount} --make-public</code> and attach your receipt to the message 
+If you want to keep your donation private (the admins will still see your name/info but we won't put it on the site) 
+leave out --make-public</li>
+</ol>
+<p>Make sure your amount matches the amount on your receipt. You can enter it as $##.## i.e. $20.00 (or even just $20).</p>
+<p>Sadevbot will send your donation on to the admins for review and it'll get added to the website (just below here in 
+the donations list). Private donations will just list an amount. The bot will also update totals in 
+<code>#sadevs-season-of-giving-2020</code> regularly.</p>
+<h3>What to do if you have an issue</h3>
+<p>Bot didn't work? Donation didn't show up? Messed up entering a donation? Something else?</p>
+<p>DM any of the admins and we can help. We can record your donation manually, delete a donation for you to resubmit, or 
+kick the bot into working again.</p>
+<h2>Donation Total And List</h2>
+<p>No donations yet!</p>
+      </div>
+      <div class="back-to-top">
+        <a href="#top">back to top</a>
+      </div>
+      <div id="disqus_thread"></div>
+        <script>
+          var disqus_config = function () {
+          this.page.url = "https://sanantoniodevs.com/season-of-giving-2020.html";  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = "season-of-giving-2020"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+        </script>
+        <script>
+        (function() {
+              var d = document, s = d.createElement('script');
+              s.src = 'https://sanantoniodevs.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </article>
+  </div>
+<!-- end article -->
                 <footer>
                     <div class="icons">
                         <a href="https://twitter.com/SA_Devs" target="_blank"><div class="icon-twitter icon"></div></a>

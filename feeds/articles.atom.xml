@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>San Antonio Developers - articles</title><link href="https://sanantoniodevs.com/" rel="alternate"></link><link href="https://sanantoniodevs.com/feeds/articles.atom.xml" rel="self"></link><id>https://sanantoniodevs.com/</id><updated>2020-10-05T00:00:00-05:00</updated><entry><title>Hacktoberfest or Spamtoberfest?</title><link href="https://sanantoniodevs.com/hacktoberfest-or-spamtoberfest.html" rel="alternate"></link><published>2020-10-05T00:00:00-05:00</published><updated>2020-10-05T00:00:00-05:00</updated><author><name>Jason Gutierrez</name></author><id>tag:sanantoniodevs.com,2020-10-05:/hacktoberfest-or-spamtoberfest.html</id><summary type="html">&lt;p&gt;An opinion on contributing to open source projects during Hacktoberfest&lt;/p&gt;</summary><content type="html">&lt;h1&gt;To Hacktober or Not to Hacktober?&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>San Antonio Developers - articles</title><link href="https://sanantoniodevs.com/" rel="alternate"></link><link href="https://sanantoniodevs.com/feeds/articles.atom.xml" rel="self"></link><id>https://sanantoniodevs.com/</id><updated>2020-11-01T00:00:00-05:00</updated><entry><title>SA Devs Season of Giving</title><link href="https://sanantoniodevs.com/season-of-giving-2020.html" rel="alternate"></link><published>2020-11-01T00:00:00-05:00</published><updated>2020-11-01T00:00:00-05:00</updated><author><name>Andrew Herrington</name></author><id>tag:sanantoniodevs.com,2020-11-01:/season-of-giving-2020.html</id><summary type="html">&lt;p&gt;Let's come together as a community to do some good this season!&lt;/p&gt;</summary><content type="html">&lt;h1&gt;SA Devs Season of Giving&lt;/h1&gt;
+&lt;h2&gt;What is Season of Giving&lt;/h2&gt;
+&lt;p&gt;During the month of November, let's work together as a group to give to those who can use some help. Donate to your 
+favorite charity (we've got some suggestions below), submit your receipt to SA Devs, and we'll amplify your donation. At
+the end of the month, the SA Devs org will match up to $2000 of community donations to the SA Food Bank.&lt;/p&gt;
+&lt;p&gt;Want to sponsor some matching funds? You can sponsor a day, a week, or the entire month and any amount/total. Reach out
+to the admins and we'll add your matching and notify you of totals!&lt;/p&gt;
+&lt;p&gt;We also understand some people might want to donate in other ways and we want to celebrate that too! If you donate your 
+time, canned goods, or do any other charitable work and you'd like it celebrated as part of SA Devs Season of Giving,
+reach out to the admins and we'll add it to our donation list! &lt;/p&gt;
+&lt;h3&gt;Suggested Charities&lt;/h3&gt;
+&lt;p&gt;These are charities that we feel are doing good work in our community. Don't feel like you have to donate to these 
+organizations, but if you're looking for a place to donate these are good choices!&lt;/p&gt;
+&lt;p&gt;Do you have an organization you like to work with? Reach out to the admins and we'll add it to our list!&lt;/p&gt;
+&lt;h4&gt;San Antonio Food Bank&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://safoodbank.org/"&gt;https://safoodbank.org/&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Hill Country Daily Bread&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://hillcountrydailybread.com/"&gt;https://hillcountrydailybread.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Get Up Community Center&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://www.getupcommunity.org/food-pantry"&gt;https://www.getupcommunity.org/food-pantry&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;How to record a donation&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Take a screenshot or PDF of your donation receipt&lt;/li&gt;
+&lt;li&gt;Open a DM to &lt;code&gt;@sadevbot&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Send &lt;code&gt;./donation {amount} --make-public&lt;/code&gt; and attach your receipt to the message 
+If you want to keep your donation private (the admins will still see your name/info but we won't put it on the site) 
+leave out --make-public&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Make sure your amount matches the amount on your receipt. You can enter it as $##.## i.e. $20.00 (or even just $20).&lt;/p&gt;
+&lt;p&gt;Sadevbot will send your donation on to the admins for review and it'll get added to the website (just below here in 
+the donations list). Private donations will just list an amount. The bot will also update totals in 
+&lt;code&gt;#sadevs-season-of-giving-2020&lt;/code&gt; regularly.&lt;/p&gt;
+&lt;h3&gt;What to do if you have an issue&lt;/h3&gt;
+&lt;p&gt;Bot didn't work? Donation didn't show up? Messed up entering a donation? Something else?&lt;/p&gt;
+&lt;p&gt;DM any of the admins and we can help. We can record your donation manually, delete a donation for you to resubmit, or 
+kick the bot into working again.&lt;/p&gt;
+&lt;h2&gt;Donation Total And List&lt;/h2&gt;
+&lt;p&gt;No donations yet!&lt;/p&gt;</content><category term="season-of-giving"></category><category term="donations"></category><category term="charity"></category></entry><entry><title>Hacktoberfest or Spamtoberfest?</title><link href="https://sanantoniodevs.com/hacktoberfest-or-spamtoberfest.html" rel="alternate"></link><published>2020-10-05T00:00:00-05:00</published><updated>2020-10-05T00:00:00-05:00</updated><author><name>Jason Gutierrez</name></author><id>tag:sanantoniodevs.com,2020-10-05:/hacktoberfest-or-spamtoberfest.html</id><summary type="html">&lt;p&gt;An opinion on contributing to open source projects during Hacktoberfest&lt;/p&gt;</summary><content type="html">&lt;h1&gt;To Hacktober or Not to Hacktober?&lt;/h1&gt;
 &lt;p&gt;So in light of some recent events, mostly from a Youtuber with a large following,
 there was a "wave" of "spammy" PRs (Pull Requests) where "contributors" would
 add some text without much context and would be considered valid PRs.&lt;/p&gt;
