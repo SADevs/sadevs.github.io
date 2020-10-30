@@ -40,7 +40,7 @@ https://www.getupcommunity.org/food-pantry
 1. Take a screenshot or PDF of your donation receipt
 + Open a DM to @sadevbot
 + Send ./donation {amount} --make-public and attach your receipt to the message 
-If you want to keep your donation private (the admins will still see your name/info but we won't but it on the site) 
+If you want to keep your donation private (the admins will still see your name/info but we won't put it on the site) 
 leave out --make-public
 
 Make sure your amount matches the amount on your receipt. You can enter it as $##.## i.e. $20.00 (or even just $20).
