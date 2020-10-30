@@ -1,7 +1,7 @@
 Title: SA Devs Season of Giving
 Date: 11-01-2020
 Tags: season-of-giving, donations, charity
-Slug: season-of-gicing-2020
+Slug: season-of-giving-2020
 Authors: Andrew Herrington 
 Summary: Let's come together as a community to do some good this season!
 
@@ -26,33 +26,34 @@ organizations, but if you're looking for a place to donate these are good choice
 Do you have an organization you like to work with? Reach out to the admins and we'll add it to our list!
 
 #### San Antonio Food Bank
-https://safoodbank.org/
+<https://safoodbank.org/>
 
 #### Hill Country Daily Bread
-https://hillcountrydailybread.com/
+<https://hillcountrydailybread.com/>
 
 ####Get Up Community Center
-https://www.getupcommunity.org/food-pantry
+<https://www.getupcommunity.org/food-pantry>
 
 
 ### How to record a donation
 
 1. Take a screenshot or PDF of your donation receipt
-+ Open a DM to @sadevbot
-+ Send ./donation {amount} --make-public and attach your receipt to the message 
++ Open a DM to `@sadevbot`
++ Send `./donation {amount} --make-public` and attach your receipt to the message 
 If you want to keep your donation private (the admins will still see your name/info but we won't put it on the site) 
 leave out --make-public
 
 Make sure your amount matches the amount on your receipt. You can enter it as $##.## i.e. $20.00 (or even just $20).
-+ Sadevbot will send your donation on to the admins for review and it'll get added to the website (just below here in 
-the donations list). Private donations will just list an amount. 
 
-It'll also update totals in #sadevs-season-of-giving-2020
+Sadevbot will send your donation on to the admins for review and it'll get added to the website (just below here in 
+the donations list). Private donations will just list an amount. The bot will also update totals in 
+`#sadevs-season-of-giving-2020` regularly.
 
 ### What to do if you have an issue
-Bot didn't work? Donation didn't show up? Something else?
+Bot didn't work? Donation didn't show up? Messed up entering a donation? Something else?
 
-DM any of the admins and we can help. We can record your donation manually or kick the bot into working again.
+DM any of the admins and we can help. We can record your donation manually, delete a donation for you to resubmit, or 
+kick the bot into working again.
 
 ## Donation Total And List
 
