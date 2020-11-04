@@ -57,4 +57,9 @@ kick the bot into working again.
 
 ## Donation Total And List
 
-No donations yet!
+Our Donation Total: 110.0
+
+### Donations
+
+*  Jacob Herrera - $100.00
+*  John Hebert - $10.00
