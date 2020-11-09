@@ -57,10 +57,11 @@ kick the bot into working again.
 
 ## Donation Total And List
 
-Our Donation Total: 127.0
+Our Donation Total: 427.0
 
 ### Donations
 
 *  Jacob Herrera - $100.00
 *  John Hebert - $10.00
 *  Andrew Herrington - $17.00
+*  Omar Quimbaya - $300.00
