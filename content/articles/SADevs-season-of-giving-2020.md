@@ -57,7 +57,7 @@ kick the bot into working again.
 
 ## Donation Total And List
 
-Our Donation Total: 942.0
+Our Donation Total: $1109.00
 
 ### Donations
 
@@ -67,3 +67,5 @@ Our Donation Total: 942.0
 *  Omar Quimbaya - $300.00
 *  Private - $415.00
 *  Larry Gonzales - $100.00
+*  Private - $67.00
+*  Private - $100.00
