@@ -2,35 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//My calendar product//mxm.dk//
 BEGIN:VEVENT
-SUMMARY:<p>Information about the San Antonio Devs Q2 2019 meetup</p>
-DTSTART:2019-05-16 18:30:00
-DTEND:2019-05-16 21:00:00
-DTSTAMP:2019-04-29 00:00:00
-UID:San Antonio Devs Meetup - Q2 2019<p>Information about the San Antonio 
- Devs Q2 2019 meetup</p>
-LOCATION:Launch SA\, 600 Soledad St. San Antonio\, TX 78205
-PRIORITY:5
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:<p>Information about the first San Antonio Devs meetup of 2019!</p
- >
-DTSTART:2019-02-20 18:30:00
-DTEND:2019-02-20 21:00:00
-DTSTAMP:2019-02-12 00:00:00
-UID:San Antonio Devs Meetup - Q1 2019<p>Information about the first San An
- tonio Devs meetup of 2019!</p>
-LOCATION:Alamo Post 2 - The American Legion\, 3518 Fredericksburg Road\, S
- an Antonio\, TX 78201
-PRIORITY:5
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:<p>Information about the San Antonio Devs Q4 2019 meetup</p>
-DTSTART:2019-12-12 18:30:00
-DTEND:2019-12-12 21:00:00
-DTSTAMP:2019-12-12 00:00:00
-UID:San Antonio Devs Meetup - Q4 2019<p>Information about the San Antonio 
- Devs Q4 2019 meetup</p>
-LOCATION:Launch SA\, 600 Soledad St. San Antonio\, TX 78205
+SUMMARY:<p>A Series of Lightning Talks from Community Members at the Geekd
+ om Event Center!</p>
+DTSTART:2019-09-17 19:00:00
+DTEND:2019-09-17 21:30:00
+DTSTAMP:2019-09-17 00:00:00
+UID:San Antonio Devs Meetup - 2019 Q3<p>A Series of Lightning Talks from C
+ ommunity Members at the Geekdom Event Center!</p>
+LOCATION:Geekdom Event Centre\, 131 Soledad St\, San Antonio\, TX 78205
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
@@ -44,14 +23,13 @@ LOCATION:iHeartMedia\, 20880 Stone Oak Pkwy\, San Antonio\, TX 78258
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:<p>A Series of Lightning Talks from Community Members at the Geekd
- om Event Center!</p>
-DTSTART:2019-09-17 19:00:00
-DTEND:2019-09-17 21:30:00
-DTSTAMP:2019-09-17 00:00:00
-UID:San Antonio Devs Meetup - 2019 Q3<p>A Series of Lightning Talks from C
- ommunity Members at the Geekdom Event Center!</p>
-LOCATION:Geekdom Event Centre\, 131 Soledad St\, San Antonio\, TX 78205
+SUMMARY:<p>Information about the San Antonio Devs Q4 2019 meetup</p>
+DTSTART:2019-12-12 18:30:00
+DTEND:2019-12-12 21:00:00
+DTSTAMP:2019-12-12 00:00:00
+UID:San Antonio Devs Meetup - Q4 2019<p>Information about the San Antonio 
+ Devs Q4 2019 meetup</p>
+LOCATION:Launch SA\, 600 Soledad St. San Antonio\, TX 78205
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
@@ -74,6 +52,16 @@ LOCATION:Sichuan House\, 3505 Wurzbach Rd #102\, San Antonio\, TX 78238
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:<p>Information about the San Antonio Devs Q2 2019 meetup</p>
+DTSTART:2019-05-16 18:30:00
+DTEND:2019-05-16 21:00:00
+DTSTAMP:2019-04-29 00:00:00
+UID:San Antonio Devs Meetup - Q2 2019<p>Information about the San Antonio 
+ Devs Q2 2019 meetup</p>
+LOCATION:Launch SA\, 600 Soledad St. San Antonio\, TX 78205
+PRIORITY:5
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:<p>Social Gathering for Noodles and Stuff</p>
 DTSTART:2019-01-18 12:00:00
 DTEND:2019-01-18 13:30:00
@@ -81,6 +69,18 @@ DTSTAMP:2019-01-18 00:00:00
 UID:Meeting for Noodles - January 2019<p>Social Gathering for Noodles and 
  Stuff</p>
 LOCATION:Kimura\, 152 E Pecan St #102\, San Antonio\, TX 78205
+PRIORITY:5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:<p>Information about the first San Antonio Devs meetup of 2019!</p
+ >
+DTSTART:2019-02-20 18:30:00
+DTEND:2019-02-20 21:00:00
+DTSTAMP:2019-02-12 00:00:00
+UID:San Antonio Devs Meetup - Q1 2019<p>Information about the first San An
+ tonio Devs meetup of 2019!</p>
+LOCATION:Alamo Post 2 - The American Legion\, 3518 Fredericksburg Road\, S
+ an Antonio\, TX 78201
 PRIORITY:5
 END:VEVENT
 END:VCALENDAR
