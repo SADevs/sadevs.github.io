@@ -1,4 +1,4 @@
-Title: Hacktoberfest or Spamtoberfest
+Title: Hacktoberfest or Spamtoberfest?
 Date: 10-5-2020
 Tags: opinion, article
 Slug: hacktoberfest-or-spamtoberfest
