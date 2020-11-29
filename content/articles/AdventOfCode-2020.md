@@ -9,7 +9,7 @@ Summary: An open invitation to the SA Developers Advent of Code leaderboard and 
 
 Welcome all members of the San Antonio Web Developers community and Slack group. I do
 apologize for the late entry for this article but better late then never. At the time of
-this writing there are 1 day(s) until the first challenge is released on Dec 1, 2019 Midnight EST.  
+this writing there are 1 day(s) until the first challenge is released on Dec 1, 2020 Midnight EST.  
 
 This is an open invitation and challenge to all developers who want to flex their skills
 or try out a new language while solving programming puzzles.
