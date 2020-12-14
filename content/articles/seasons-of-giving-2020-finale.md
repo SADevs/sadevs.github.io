@@ -1,7 +1,7 @@
 Title: Season of Giving Finale
 Date: 12-14-2020
 Tags: season-of-giving, donations, charity
-Slug: season-of-giving-2020
+Slug: season-of-giving-2020-finale
 Authors: Andrew Herrington 
 Summary: Results of Season of Giving 2020
 
