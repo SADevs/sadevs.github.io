@@ -1,0 +1,4 @@
+pelican>=4.0.0
+markdown
+ghp-import
+icalendar

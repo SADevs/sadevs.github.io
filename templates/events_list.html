@@ -36,7 +36,7 @@
               {% endif %}
 
               {% if event.location %}
-              <p>Location: {{event.location}}</p>
+			  <p>Location: <a href="{{mapify(event.location)}}">{{event.location}}</a></p>
               {% endif %}
 
               {{event['summary']}}

@@ -2,9 +2,6 @@ PY?=python3
 PELICAN?=pelican
 PELICANOPTS=
 PYTHON=python3
-PIPENV_PATH?=$(shell command -v pipenv 2> /dev/null)
-PIPENV?=$(PYTHON) -m pipenv
-PIPENV_RUN?=$(PIPENV) run
 PIP?=$(PYTHON) -m pip
 
 APP_NAME?=$(HEROKU_APP_NAME)
@@ -42,50 +39,45 @@ help:
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo '                                                                          '
 
-pipenv:
-ifeq ($(PIPENV_PATH),)
-	$(PIP) install pipenv
-endif
-
-install: pipenv
-	$(PIPENV) install
+install:
+	$(PIP) install -r requirements.txt
 
 html: install
-	env APP_NAME=$(APP_NAME) $(PIPENV_RUN) $(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	env APP_NAME=$(APP_NAME) $(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
 regenerate: installthemes/brutalist/README.md
-	$(PIPENV_RUN) $(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 serve:
 ifdef PORT
-	$(PIPENV_RUN) $(PELICAN) --listen -p $(PORT) $(OUTPUTDIR)
+	$(PELICAN) --listen -p $(PORT) $(OUTPUTDIR)
 else
-	$(PIPENV_RUN) $(PELICAN) --listen $(OUTPUTDIR)
+	$(PELICAN) --listen $(OUTPUTDIR)
 endif
 
 serve-global:
 ifdef SERVER
-	$(PIPENV_RUN) $(PELICAN) 80 $(SERVER) $(OUTPUTDIR)
+	$(PELICAN) 80 $(SERVER) $(OUTPUTDIR)
 else
-	$(PIPENV_RUN) $(PELICAN) 80 0.0.0.0 $(OUTPUTDIR)
+	$(PELICAN) 80 0.0.0.0 $(OUTPUTDIR)
 endif
 
 
 devserver:
 ifdef PORT
-	$(PIPENV_RUN) $(BASEDIR)/develop_server.sh restart $(PORT)
+	$(BASEDIR)/develop_server.sh restart $(PORT)
 else
-	$(PIPENV_RUN) $(BASEDIR)/develop_server.sh restart
+	$(BASEDIR)/develop_server.sh restart
 endif
 
 stopserver:
-	$(PIPENV_RUN) $(BASEDIR)/develop_server.sh stop
+	$(BASEDIR)/develop_server.sh stop
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
 publish: install themes/brutalist/README.md
-	$(PIPENV_RUN) $(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 .PHONY: install html help clean regenerate serve serve-global devserver stopserver publish

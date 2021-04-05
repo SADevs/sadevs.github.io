@@ -59,7 +59,8 @@
         {%- for event in events_list %}
           {%- if event.metadata['title'] == article.title %}
           <h2>Event Details</h2>
-          <p><b>Location</b>: {{event.metadata['event-location']}}<br>
+		  {%- set location = event.metadata['event-location'] %}
+		  <p><b>Location</b>: <a href="{{mapify(location)}}">{{location}}</a><br>
           <b>Date</b>:
           <time datetime=" {{ event.metadata['event-start'] }}">
             <script>document.write(moment("{{ event.metadata['event-start'] }}").format('LLLL'));</script>
