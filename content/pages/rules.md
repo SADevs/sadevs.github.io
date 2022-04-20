@@ -30,9 +30,9 @@ If you have other additions to this rule set, please submit them as a pull reque
 
 Thanks, and happy chatting, San Antonio Developers!
 
-Current admins:
+Current admins (in order of start date):
 
-1. gtmanfred - Daniel
 1. drlordrevandrew - Andrew
-1. redrobot - Douglas
 1. bigjonroberts - Jon
+1. h10_a - Barbara
+1. Nathan - Nathan (lol)
