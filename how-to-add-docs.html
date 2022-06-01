@@ -62,7 +62,7 @@
                         <li><a href="https://sanantoniodevs.com/pages/library.html">library</a></li>
                         <li><a href="https://sanantoniodevs.com/pages/local-meetups.html">local-meetups</a></li>
                         <li><a href="https://sanantoniodevs.com/pages/rules.html">rules</a></li>
-                        <li><a href="https://join.slack.com/t/sanantoniodevs/shared_invite/zt-ool2ekfo-IY4cngzMmX9vA2~Ad54_5w">slack</a></li>
+                        <li><a href="https://join.slack.com/t/sanantoniodevs/shared_invite/zt-18kcko06c-YtH__gsJJBumKdEYrV_OLA">slack</a></li>
                         <li><a href="https://github.com/SADevs/sadevs.github.io">github</a></li>
                             <li class="active"><a href="https://sanantoniodevs.com/category/articles.html">articles</a></li>
                 </ul>
@@ -90,35 +90,32 @@
 <p>This is a good opportunity for you to contribute something to the community without that much effort! In order to do so, here is how you do it.</p>
 <h2>Fork the repo!</h2>
 <p>Our site is a static site hosted somewhere out there on the Internet. Super mysterious. You can find the repository of our site here: <a href="https://github.com/SADevs/sadevs.github.io">https://github.com/SADevs/sadevs.github.io</a>. <a href="https://help.github.com/en/articles/fork-a-repo">Fork</a> the website's repo and <a href="https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository">clone</a> it to your local machine. Below are quick steps to clone your fork, update all the submodules (important to get our theme pulled down), and add the main repo as an upstream (important for syncing your fork later): </p>
-<div class="highlight"><pre><span></span>git clone <span class="o">[</span>your fork url<span class="o">]</span>
+<div class="highlight"><pre><span></span><code>git clone <span class="o">[</span>your fork url<span class="o">]</span>
 git submodule update --init
 git remote add upstream git@github.com:SADevs/sadevs.github.io.git
-</pre></div>
-
+</code></pre></div>
 
 <h2>Syncing your fork</h2>
 <p>If you've already forked the repo and want to sync it, <a href="https://help.github.com/en/articles/syncing-a-fork">Github</a> offers some great documentation on doing it. If you cloned the repo following the above steps, you can follow the Github's documentation. If you didn't check out <a href="https://help.github.com/en/articles/configuring-a-remote-for-a-fork">these directions</a> for adding the remote.</p>
 <p>You'll need to sync your fork after any changes are made in the main repo (like your PR being merged).</p>
 <h2>Pelican Power!</h2>
 <p>The site is powered by <a href="https://github.com/getpelican/pelican">Pelican</a>, which is a static site generator written in Python. If you have Python on your machine and you want to see what your article looks like on your local machine, install Pelican by typing in your terminal </p>
-<div class="highlight"><pre><span></span><span class="c1"># if you don&#39;t have pipenv on your machine already</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># if you don&#39;t have pipenv on your machine already</span>
 pip install pipenv
 pipenv install
-</pre></div>
-
+</code></pre></div>
 
 <p>You can learn more about <a href="https://realpython.com/pipenv-guide/">pipenv here</a>.</p>
 <p>This will get the necessary packages to use this static site generator. To build and run the site locally, use the following commands:</p>
-<div class="highlight"><pre><span></span>pipenv run pelican content -vvv -o output -s pelicanconf.py
+<div class="highlight"><pre><span></span><code>pipenv run pelican content -vvv -o output -s pelicanconf.py
 pipenv run pelican --listen
-</pre></div>
-
+</code></pre></div>
 
 <p>Open a browser and go to http://localhost:8000 to view the content. </p>
 <p><strong>Note that the links will link to the actual site instead of the locally generated site, so if you made changes and you are not seeing them, check the URL at the top to see where you are.</strong></p>
 <h3>New Article Template</h3>
 <p>Copy this template to get you started into a new file with a relevant name of your article and ending with a markdown extension:</p>
-<div class="highlight"><pre><span></span>Title: How to install Pelican
+<div class="highlight"><pre><span></span><code>Title: How to install Pelican
 Date: 11-29-2018
 Tags: how-to, docs
 Slug: how-to-install-pelican
@@ -137,8 +134,7 @@ Summary: A short tutorial on how to install Pelican
 <span class="gu">### Tertiary Heading</span>
 
 [<span class="nt">Links for more information</span>](<span class="na">https://blog.getpelican.com/</span>)
-</pre></div>
-
+</code></pre></div>
 
 <h2>Making a PR</h2>
 <p>Once your document is done and you feel like you've said all you could about a topic, commit and push that to the <code>website</code> branch of your clone repository. Go to your repo and submit a pull request to add your changes to the site. Once an admin reviews your article and accepts the pull request, it will start a process that will publish the article to the site.</p>
