@@ -24,6 +24,7 @@ jobs:
       - run: python3 -m pip install -r requirements.txt
       - run: git submodule update --init
       - run: python3 -m pelican content -vvv -o output -s pelicanconf.py
+      - run: echo sanantoniodevs.com > output/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
