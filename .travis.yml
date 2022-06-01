@@ -4,11 +4,10 @@ cache: pip
 python:
   - 3.6
 install:
-  - pip install pipenv
-  - pipenv install
+  - python3 -m pip install -r requirements.txt
 script:
   - git submodule update --init
-  - pipenv run pelican content -vvv -o output -s pelicanconf.py
+  - python3 -m pelican content -vvv -o output -s pelicanconf.py
 
 deploy:
   provider: pages

@@ -1,0 +1,8 @@
+{%- macro mapify(location) -%}
+{%- if location.startswith('http') %}
+{{location}}
+{%- else %}
+  {%- set escaped_location = location|replace(',', '')|replace(' ', '+') %}
+{{'https://www.google.com/maps/dir/Current+Location/%s'|format(escaped_location)}}
+{% endif %}
+{%- endmacro -%}
