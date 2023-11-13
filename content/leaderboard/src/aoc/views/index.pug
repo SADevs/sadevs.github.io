@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+  head
+  title=title
+  meta(name="description" content="")
+  meta(charset="utf-8")
+  meta(name="viewport" content="width=device-width, initial-scale=1")
+  script(src="https://code.highcharts.com/highcharts.js")
+  script(src="https://code.highcharts.com/modules/exporting.js")
+  script(src="https://code.highcharts.com/modules/accessibility.js")
+
+  include style.pug
+
+  body
+    .displayContainer.centerFlex
+      #line.figure
+
+  include linechart.pug

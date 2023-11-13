@@ -1,0 +1,62 @@
+name: AoC Leaderboard
+
+on:
+  schedule:
+    - cron: "30 1 * * *"
+  workflow_dispatch:
+
+jobs:
+  aoc-build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      actions: read
+
+    defaults:
+      run:
+        working-directory: ./content/leaderboard
+
+    concurrency:
+      group: aoc-leaderboard-${{ github.event.number }}
+      cancel-in-progress: true
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Install poetry
+        run: pipx install poetry
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          cache: "poetry"
+          python-version: "3.x"
+
+      - name: Setup Poetry
+        id: prepare
+        run: |
+          year="$(date +%Y)"
+          poetry install
+          echo "year=${year}" >> $GITHUB_OUTPUT
+
+      - name: Build AoC
+        env:
+          AOC_SESSION: ${{ secrets.AOC_SESSION }}
+          AOC_ID: ${{ secrets.AOC_ID }}
+          AOC_YEAR: ${{ steps.prepare.outputs.year }}
+        run: |
+          mkdir -p dist
+          poetry run aoc
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: index.html
+          # Note upload-artifact doesn't use working-directory
+          path: content/leaderboard/dist/index.html
+          if-no-files-found: error
+          retention-days: 5

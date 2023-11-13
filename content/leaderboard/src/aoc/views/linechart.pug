@@ -1,0 +1,226 @@
+script.
+    (function() {
+        "use strict";
+        let line_legend = true;
+        let line = Highcharts.chart('line', {
+            navigation: {
+                buttonOptions: {
+                    theme: {
+                        style: {
+                            textDecoration: 'underline'
+                        }
+                    }
+                }
+            },
+            legend: {
+                floating: true,
+                layout: 'vertical',
+                borderWidth: 1,
+                align: 'left',
+                verticalAlign: 'top',
+                x: 80,
+                y: 45,
+
+                maxHeight: 350,
+                reversed: true
+            },
+            exporting: {
+                buttons: {
+                    contextButton: {
+                        enabled: false
+                    },
+                    legendToggle: {
+                        text: 'Toggle Legend',
+                        onclick: function(ev) {
+                            line_legend = !line_legend;
+                            line.legend.update({
+                                enabled: line_legend
+                            });
+                            line.redraw();
+                        }
+                    },
+                    showall: {
+                        text: 'Show All',
+                        onclick: function() {
+                            for (let series in line.series) {
+                                if (!series.visible) {
+                                    line.series[series].setVisible(true, false);
+                                }
+                            }
+                            line.redraw();
+                        }
+                    },
+                    hideall: {
+                        text: 'Hide All',
+                        onclick: function() {
+                            for (let series in line.series) {
+                                if (!series.visible) {
+                                    line.series[series].setVisible(false, false);
+                                }
+                            }
+                            line.redraw();
+                        }
+                    },
+                    top10: {
+                        text: 'Top 10',
+                        onclick: function() {
+
+                            let topidx = line.series.map((o, ii) => {
+                                return {
+                                    "local_score": o.userOptions.local_score,
+                                    "idx": ii
+                                }
+                            }).sort((a, b) => b.local_score - a.local_score).map(o => o.idx).slice(0, 10);
+
+                            for (let idx in line.series) {
+                                if (topidx.includes(parseInt(idx, 10))) {
+                                    line.series[idx].setVisible(true, false);
+                                } else {
+                                    line.series[idx].setVisible(false, false);
+                                }
+                            }
+                            line.redraw();
+                        }
+                    },
+                    topstars: {
+                        text: 'Top Stars',
+                        onclick: function() {
+                            let selects;
+                            let topidx = line.series.map((o, ii) => {
+                                return {
+                                    "total_stars": o.userOptions.total_stars,
+                                    "idx": ii
+                                }
+                            }).sort((a, b) => b.total_stars - a.total_stars);
+                            let top_count=Math.max(...topidx.map(o => o.total_stars));
+                            let top_three = topidx.slice(0,3);
+
+                            let top_stars = topidx.filter(o => o.total_stars === top_count);
+                            if(top_stars.length < 3) {
+                                selects = top_three.map(o => o.idx);
+                            } else {
+                                selects =top_stars.map(o => o.idx);
+                            }
+
+                            for (let idx in line.series) {
+                                if (selects.includes(parseInt(idx, 10))) {
+                                    line.series[idx].setVisible(true, false);
+                                } else {
+                                    line.series[idx].setVisible(false, false);
+                                }
+                            }
+                            line.redraw();
+                        }
+                    }
+                }
+            },
+            chart: {
+                type: 'line'
+            },
+            title: {
+                text: '#{title_text} - #{year}',
+                align: 'left'
+            },
+            subtitle: {
+                text: `As of ${new Date(#{built}).toLocaleString()}`,
+                align: 'left'
+            },
+            lang: {
+                loading: "this is a test"
+            },
+            loading: {
+                hideDuration: 1000,
+                showDuration: 1000,
+                labelStyle: {
+
+                }
+            },
+            xAxis: {
+                type: 'datetime',
+                dateTimeLabelFormats: {
+                    millisecond: '%H:%M:%S.%L',
+                    second: '%H:%M:%S',
+                    minute: '%H:%M',
+                    hour: '%H:%M',
+                    day: '%e. %b',
+                    week: '%e. %b',
+                    month: '%b \'%y',
+                    year: '%Y'
+                },
+                tickPixelInterval: 150,
+            },
+            yAxis: {
+                title: {
+                    text: 'Star Count'
+                },
+                allowDecimals: false,
+                min: 1
+            },
+            tooltip: {
+                formatter: function() {
+                    let star_time = new Date(this.key).toLocaleString({
+                        timeZone: 'en_US',
+                        dataStyle: 'short',
+                        timeStyle: 'full'
+                    });
+                    return `<b>${this.series.name}</b><br>
+                        ${star_time}<br>
+                        Local Score: ${this.series.userOptions.local_score}<br>
+                        Total Stars: ${this.series.userOptions.total_stars}<br>`
+                }
+            },
+            plotOptions: {
+                series: {
+                    marker: {
+                        enabled: true,
+                        radius: 2.5
+                    }
+                }
+            },
+            credits: {
+                enabled: false
+            },
+            series: !{player_series_data },
+            responsive: {
+                rules: [{
+                    condition: {
+                        maxWidth: 800
+                    },
+                    chartOptions: {
+                        plotOptions: {
+                            series: {
+                                marker: {
+                                    radius: 1.5
+                                }
+                            }
+                        }
+                    }
+                }]
+            }
+        });
+
+        function countdownTimer() {
+            const difference = +new Date("#{year}-12-01T00:00:00-05:00") - +new Date();
+            let remaining;
+
+            if (difference > 0) {
+                const parts = {
+                    days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+                    hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+                    minutes: Math.floor((difference / 1000 / 60) % 60),
+                    seconds: Math.floor((difference / 1000) % 60),
+                };
+
+                remaining = Object.keys(parts).map(part => {
+                    return `${parts[part]} ${part}`;
+                }).join(" ");
+
+
+                line.showLoading(`🎄 ${remaining} 🎄`);
+
+                setTimeout(countdownTimer, 1000);
+            }
+        }
+
+        countdownTimer();
+    }());
