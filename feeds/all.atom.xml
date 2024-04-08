@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>San Antonio Developers</title><link href="https://sanantoniodevs.com/" rel="alternate"></link><link href="https://sanantoniodevs.com/feeds/all.atom.xml" rel="self"></link><id>https://sanantoniodevs.com/</id><updated>2020-12-14T00:00:00-06:00</updated><entry><title>Season of Giving Finale</title><link href="https://sanantoniodevs.com/season-of-giving-2020-finale.html" rel="alternate"></link><published>2020-12-14T00:00:00-06:00</published><updated>2020-12-14T00:00:00-06:00</updated><author><name>Andrew Herrington</name></author><id>tag:sanantoniodevs.com,2020-12-14:/season-of-giving-2020-finale.html</id><summary type="html">&lt;p&gt;Results of Season of Giving 2020&lt;/p&gt;</summary><content type="html">&lt;h1&gt;SA Devs Season of Giving Finale&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>San Antonio Developers</title><link href="https://sanantoniodevs.com/" rel="alternate"></link><link href="https://sanantoniodevs.com/feeds/all.atom.xml" rel="self"></link><id>https://sanantoniodevs.com/</id><updated>2023-08-16T00:00:00-05:00</updated><entry><title>How to join the Slack group</title><link href="https://sanantoniodevs.com/join-slack.html" rel="alternate"></link><published>2023-08-16T00:00:00-05:00</published><updated>2023-08-16T00:00:00-05:00</updated><author><name>Omar Quimbaya</name></author><id>tag:sanantoniodevs.com,2023-08-16:/join-slack.html</id><summary type="html">&lt;p&gt;A short tutorial on how to join the SA Devs Slack group&lt;/p&gt;</summary><content type="html">&lt;h1&gt;How to join the Slack group&lt;/h1&gt;
+&lt;h2&gt;Steps to join&lt;/h2&gt;
+&lt;p&gt;Welcome to the Slack group! We're glad you're here. To join the group, follow these steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;On the homepage, click "Slack" on the left sidebar.&lt;/li&gt;
+&lt;li&gt;Accept the Slack invite and create an account.&lt;/li&gt;
+&lt;li&gt;Join the &lt;code&gt;#random&lt;/code&gt; channel and introduce yourself.&lt;/li&gt;
+&lt;li&gt;Review our &lt;a href="https://sanantoniodevs.com/pages/rules.html"&gt;community rules&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Get oriented with the group&lt;/h2&gt;
+&lt;p&gt;We have a lot of channels in our Slack group. You can view all of our channels, or you can start joining channels of programming languages you like to use. We also have channels for specific topics, like &lt;code&gt;#random&lt;/code&gt; and &lt;code&gt;#jobs&lt;/code&gt;. If you're a parent, we have a &lt;code&gt;#parentops&lt;/code&gt; channel for discussions on raising kids the DevOps way. Like sports? Join &lt;code&gt;#sports&lt;/code&gt;. Interested in travel? Check out &lt;code&gt;#travel&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;There are a lot of places where you can discuss your favorite topics and get to know other members in the group.&lt;/p&gt;
+&lt;p&gt;Let any of the admins know if you have questions or concerns. We strive to be a welcoming and inclusive community, and we want to make sure you feel safe and comfortable here.&lt;/p&gt;
+&lt;p&gt;Welcome to SA Devs!&lt;/p&gt;</content><category term="articles"></category><category term="how-to"></category><category term="docs"></category></entry><entry><title>Season of Giving Finale</title><link href="https://sanantoniodevs.com/season-of-giving-2020-finale.html" rel="alternate"></link><published>2020-12-14T00:00:00-06:00</published><updated>2020-12-14T00:00:00-06:00</updated><author><name>Andrew Herrington</name></author><id>tag:sanantoniodevs.com,2020-12-14:/season-of-giving-2020-finale.html</id><summary type="html">&lt;p&gt;Results of Season of Giving 2020&lt;/p&gt;</summary><content type="html">&lt;h1&gt;SA Devs Season of Giving Finale&lt;/h1&gt;
 &lt;p&gt;Season of Giving is completed for 2020! Our community raised $1126.00 through our charitable donations and work in the month of November! The SA Devs organization has matched this with a $1126.00 donation to the SA Food Bank, providing meals for almost 8000 people!&lt;/p&gt;
 &lt;p&gt;You can see all of our donations and totals on https://sanantoniodevs.com/season-of-giving-2020.html&lt;/p&gt;
 &lt;p&gt;I am personally overwhelmed with gratitude and pride for everyone who participated. Thank you all for helping to end food insecurity here in South Texas!&lt;/p&gt;</content><category term="articles"></category><category term="season-of-giving"></category><category term="donations"></category><category term="charity"></category></entry><entry><title>Advent of Code (AoC) 2020 Code Jam</title><link href="https://sanantoniodevs.com/advent-of-code-2020.html" rel="alternate"></link><published>2020-11-29T00:00:00-06:00</published><updated>2020-11-29T00:00:00-06:00</updated><author><name>Jason Gutierrez</name></author><id>tag:sanantoniodevs.com,2020-11-29:/advent-of-code-2020.html</id><summary type="html">&lt;p&gt;An open invitation to the SA Developers Advent of Code leaderboard and code jam&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Third Annual SA Developers Advent of Code (AoC) Code Jam&lt;/h1&gt;
@@ -286,9 +299,9 @@ on the generousity of other developers in the community who wish to contribute.&
 &lt;p&gt;This is a good opportunity for you to contribute something to the community without that much effort! In order to do so, here is how you do it.&lt;/p&gt;
 &lt;h2&gt;Fork the repo!&lt;/h2&gt;
 &lt;p&gt;Our site is a static site hosted somewhere out there on the Internet. Super mysterious. You can find the repository of our site here: &lt;a href="https://github.com/SADevs/sadevs.github.io"&gt;https://github.com/SADevs/sadevs.github.io&lt;/a&gt;. &lt;a href="https://help.github.com/en/articles/fork-a-repo"&gt;Fork&lt;/a&gt; the website's repo and &lt;a href="https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository"&gt;clone&lt;/a&gt; it to your local machine. Below are quick steps to clone your fork, update all the submodules (important to get our theme pulled down), and add the main repo as an upstream (important for syncing your fork later): &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git clone &lt;span class="o"&gt;[&lt;/span&gt;your fork url&lt;span class="o"&gt;]&lt;/span&gt;
-git submodule update --init
-git remote add upstream git@github.com:SADevs/sadevs.github.io.git
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git&lt;span class="w"&gt; &lt;/span&gt;clone&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;your&lt;span class="w"&gt; &lt;/span&gt;fork&lt;span class="w"&gt; &lt;/span&gt;url&lt;span class="o"&gt;]&lt;/span&gt;
+git&lt;span class="w"&gt; &lt;/span&gt;submodule&lt;span class="w"&gt; &lt;/span&gt;update&lt;span class="w"&gt; &lt;/span&gt;--init
+git&lt;span class="w"&gt; &lt;/span&gt;remote&lt;span class="w"&gt; &lt;/span&gt;add&lt;span class="w"&gt; &lt;/span&gt;upstream&lt;span class="w"&gt; &lt;/span&gt;git@github.com:SADevs/sadevs.github.io.git
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2&gt;Syncing your fork&lt;/h2&gt;
@@ -297,14 +310,14 @@ git remote add upstream git@github.com:SADevs/sadevs.github.io.git
 &lt;h2&gt;Pelican Power!&lt;/h2&gt;
 &lt;p&gt;The site is powered by &lt;a href="https://github.com/getpelican/pelican"&gt;Pelican&lt;/a&gt;, which is a static site generator written in Python. If you have Python on your machine and you want to see what your article looks like on your local machine, install Pelican by typing in your terminal &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# if you don&amp;#39;t have pipenv on your machine already&lt;/span&gt;
-pip install pipenv
-pipenv install
+pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;pipenv
+pipenv&lt;span class="w"&gt; &lt;/span&gt;install
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;You can learn more about &lt;a href="https://realpython.com/pipenv-guide/"&gt;pipenv here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This will get the necessary packages to use this static site generator. To build and run the site locally, use the following commands:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pipenv run pelican content -vvv -o output -s pelicanconf.py
-pipenv run pelican --listen
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pipenv&lt;span class="w"&gt; &lt;/span&gt;run&lt;span class="w"&gt; &lt;/span&gt;pelican&lt;span class="w"&gt; &lt;/span&gt;content&lt;span class="w"&gt; &lt;/span&gt;-vvv&lt;span class="w"&gt; &lt;/span&gt;-o&lt;span class="w"&gt; &lt;/span&gt;output&lt;span class="w"&gt; &lt;/span&gt;-s&lt;span class="w"&gt; &lt;/span&gt;pelicanconf.py
+pipenv&lt;span class="w"&gt; &lt;/span&gt;run&lt;span class="w"&gt; &lt;/span&gt;pelican&lt;span class="w"&gt; &lt;/span&gt;--listen
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Open a browser and go to http://localhost:8000 to view the content. &lt;/p&gt;

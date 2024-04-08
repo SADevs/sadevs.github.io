@@ -90,9 +90,9 @@
 <p>This is a good opportunity for you to contribute something to the community without that much effort! In order to do so, here is how you do it.</p>
 <h2>Fork the repo!</h2>
 <p>Our site is a static site hosted somewhere out there on the Internet. Super mysterious. You can find the repository of our site here: <a href="https://github.com/SADevs/sadevs.github.io">https://github.com/SADevs/sadevs.github.io</a>. <a href="https://help.github.com/en/articles/fork-a-repo">Fork</a> the website's repo and <a href="https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository">clone</a> it to your local machine. Below are quick steps to clone your fork, update all the submodules (important to get our theme pulled down), and add the main repo as an upstream (important for syncing your fork later): </p>
-<div class="highlight"><pre><span></span><code>git clone <span class="o">[</span>your fork url<span class="o">]</span>
-git submodule update --init
-git remote add upstream git@github.com:SADevs/sadevs.github.io.git
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span><span class="o">[</span>your<span class="w"> </span>fork<span class="w"> </span>url<span class="o">]</span>
+git<span class="w"> </span>submodule<span class="w"> </span>update<span class="w"> </span>--init
+git<span class="w"> </span>remote<span class="w"> </span>add<span class="w"> </span>upstream<span class="w"> </span>git@github.com:SADevs/sadevs.github.io.git
 </code></pre></div>
 
 <h2>Syncing your fork</h2>
@@ -101,14 +101,14 @@ git remote add upstream git@github.com:SADevs/sadevs.github.io.git
 <h2>Pelican Power!</h2>
 <p>The site is powered by <a href="https://github.com/getpelican/pelican">Pelican</a>, which is a static site generator written in Python. If you have Python on your machine and you want to see what your article looks like on your local machine, install Pelican by typing in your terminal </p>
 <div class="highlight"><pre><span></span><code><span class="c1"># if you don&#39;t have pipenv on your machine already</span>
-pip install pipenv
-pipenv install
+pip<span class="w"> </span>install<span class="w"> </span>pipenv
+pipenv<span class="w"> </span>install
 </code></pre></div>
 
 <p>You can learn more about <a href="https://realpython.com/pipenv-guide/">pipenv here</a>.</p>
 <p>This will get the necessary packages to use this static site generator. To build and run the site locally, use the following commands:</p>
-<div class="highlight"><pre><span></span><code>pipenv run pelican content -vvv -o output -s pelicanconf.py
-pipenv run pelican --listen
+<div class="highlight"><pre><span></span><code>pipenv<span class="w"> </span>run<span class="w"> </span>pelican<span class="w"> </span>content<span class="w"> </span>-vvv<span class="w"> </span>-o<span class="w"> </span>output<span class="w"> </span>-s<span class="w"> </span>pelicanconf.py
+pipenv<span class="w"> </span>run<span class="w"> </span>pelican<span class="w"> </span>--listen
 </code></pre></div>
 
 <p>Open a browser and go to http://localhost:8000 to view the content. </p>
