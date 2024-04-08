@@ -14,6 +14,7 @@ Welcome to the Slack group! We're glad you're here. To join the group, follow th
 1. On the homepage, click "Slack" on the left sidebar.
 2. Accept the Slack invite and create an account.
 3. Join the `#random` channel and introduce yourself.
+4. Review our [community rules](https://sanantoniodevs.com/pages/rules.html).
 
 ## Get oriented with the group
 
