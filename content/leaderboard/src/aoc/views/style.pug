@@ -1,0 +1,70 @@
+style.
+    body {
+      background-color: rgba(0,0,0,0.0);
+      height: 100%;
+      margin: 0;
+      width: 100%;
+    }
+    html {
+      height: 100%;
+      width: 100%;
+    }
+    .displayContainer {
+      /*border: 1px dotted #000;*/
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+    .centerFlex {
+      display: flex;
+      align-items: center;
+      //- justify-content: space-between;
+      justify-content: center;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      //- justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .figure {
+      height:90%;
+      width:90%;
+      position:absolute;
+    }
+    .brand,
+    .nav,
+    .button {
+      flex: 1;
+    }
+    a {
+      font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+    }
+
+    a:link, a:visited {
+      font-size: 15px;
+      //- background-color: #EEE;
+      border: none;
+      color: #999;
+      padding: 15px 5px;
+      text-align: center;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      text-decoration: none;
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    a:hover, a:active {
+       background-color: #EEE;
+    }
+
+    .highcharts-loading-inner {
+      font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+      padding: 15px 5px;
+      font-size: 3vw;
+      color: #00861AE8;
+    }
