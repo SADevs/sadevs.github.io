@@ -33,7 +33,7 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LOGO = 'sadev_500w.png'
 MENUITEMS = [
-    ('slack', 'https://join.slack.com/t/sanantoniodevs/shared_invite/zt-18kcko06c-YtH__gsJJBumKdEYrV_OLA'),
+    ('slack', 'https://join.slack.com/t/sanantoniodevs/shared_invite/zt-2z9jae0za-4dHyfhYd6Nc7dm_AeMNufw'),
     ('github', 'https://github.com/SADevs/sadevs.github.io'),
 ]
 
